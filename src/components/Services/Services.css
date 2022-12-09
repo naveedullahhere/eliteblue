@@ -141,10 +141,12 @@
 
     .services {
         background: url('../Assets/bg-services.png') repeat top/contain;
+        background-attachment: fixed;
     }
-
+    
     .portfolio {
         background: url('../Assets/portfolio-bg.png') repeat top/contain;
+        background-attachment: fixed;
     }
 
     .services-card {
