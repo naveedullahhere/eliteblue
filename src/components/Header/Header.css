@@ -501,9 +501,10 @@
      .main-header .header-upper .inner-container {
          /* display: flex; */
      }
+
      .side-menu__content {
-        padding-inline: 40px!important; 
-    }
+         padding-inline: 40px !important;
+     }
  }
 
  nav a,
@@ -636,6 +637,14 @@
  }
 
  @media (max-width: 480px) {
+     .main-header .header-upper .logo-box {
+         padding: 24px 0px;
+     }
+
+     .nav-outer .mobile-nav-toggler {
+         margin: 22px 0px 0px!important;
+     }
+
      .side-menu__block-inner {
          max-width: 400px;
      }

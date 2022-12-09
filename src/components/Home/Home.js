@@ -1,6 +1,6 @@
 import React from 'react';
 import config from '../../config';
-import Banner from '../Assets/banner.png';
+import Banner from '../Assets/bg.jpg';
 import BannerLogo from '../Assets/BannerLogo.png';
 import './Home.css';
 
