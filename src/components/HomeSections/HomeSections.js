@@ -36,7 +36,7 @@ export const HomeSections = () => {
                     </div>
                 </div>
             </section>
-            <section className="section position-relative overflow-hidden pb-5">
+            <section className="section position-relative overflow-hidden pb-5 services">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 shape-circle">
@@ -53,16 +53,16 @@ export const HomeSections = () => {
                         </div>
                     </div>
                     <div className="row my-4 w-100 mx-auto">
-                        <Service title="BLOCKCHAIN DEVELOPMENT" description="Blockchain development services are revolutionising the way people deal all around the world. With the support of secure, dependable, and high-quality blockchain technology development services, you can avoid third-party intrusion." image="./Assets/services_1.png" />
-                        <Service title="DIGITAL MARKETING" description="There are more leads. More sales are expected. Increased revenue. Eliteblue Technologies provides digital marketing services. We’ll assist your company in making the most significant impact, from traffic to income." image="./Assets/services_2.png" />
-                        <Service title="ECOMMERCE SOFTWARE DEVELOPMENT" description="ECommerce software development addresses the requirement for a digital presence from worldwide manufacturing, distribution, and retail organizations." image="./Assets/services_3.png" />
-                        <Service title="MOBILE APPLICATION DEVELOPMENT" description="Mobile Systems Custom Platform Back-End Executions Interface Apps" image="./Assets/services_4.png" />
-                        <Service title="Web Development" description="Web development on the front-end Web development on the backend WordPress Customization Development of a CMS" image="./Assets/services_5.png" />
-                        <Service title="Creative Branding & Design" description="Designing a brand identity and logo, as well as packaging, web and  mobile design, and layout and print design." image="./Assets/services_6.png" />
+                        <Service title="BLOCKCHAIN DEVELOPMENT" link="#" description="Blockchain development services are revolutionising the way people deal all around the world. With the support of secure, dependable, and high-quality blockchain technology development services, you can avoid third-party intrusion." image="./Assets/services_1.png" />
+                        <Service title="DIGITAL MARKETING" link="#" description="There are more leads. More sales are expected. Increased revenue. Eliteblue Technologies provides digital marketing services. We’ll assist your company in making the most significant impact, from traffic to income." image="./Assets/services_2.png" />
+                        <Service title="ECOMMERCE SOFTWARE DEVELOPMENT" link="#" description="ECommerce software development addresses the requirement for a digital presence from worldwide manufacturing, distribution, and retail organizations." image="./Assets/services_3.png" />
+                        <Service title="MOBILE APPLICATION DEVELOPMENT" link="#" description="Mobile Systems Custom Platform Back-End Executions Interface Apps" image="./Assets/services_4.png" />
+                        <Service title="Web Development" link="#" description="Web development on the front-end Web development on the backend WordPress Customization Development of a CMS" image="./Assets/services_5.png" />
+                        <Service title="Creative Branding & Design" link="#" description="Designing a brand identity and logo, as well as packaging, web and  mobile design, and layout and print design." image="./Assets/services_6.png" />
                     </div>
                 </div>
             </section>
-            <section className="section pt-0">
+            <section className="section pt-0 portfolio">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -120,12 +120,12 @@ export const HomeSections = () => {
                     <div className="row">
                         <div className="col-12">
                             <div class="head">
-                                <h4 class="heading-sm">Portfolio</h4>
-                                <h2 class="heading">RECENT WORK
+                                <h4 class="heading-sm">TECHNOLOGIES WE USE
+</h4>
+                                <h2 class="heading">Highlights of technologies we use
                                     <span class="dot">.</span>
                                 </h2>
-                                <p class="para">A wide selection of solutions is available, which are ideal for your project’s success. We mix digital craftsmanship with customer experiences and brand development.</p>
-                            </div>
+                             </div>
                         </div>
                     </div>
 

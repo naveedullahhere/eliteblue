@@ -211,7 +211,7 @@ h6 {
 
 .bg-radial {
   position: relative;
-  background: #ffffff url(./components/Assets/pattern-bg.png) left top repeat;
+  background: #ffffff url(./components/Assets/pattern-bg.png) top/cover no-repeat;
 }
 
 section.section {
