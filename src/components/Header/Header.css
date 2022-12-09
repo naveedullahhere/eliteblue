@@ -847,8 +847,7 @@
 
 
  .main-header .header-upper {
-     height: 116px;
-     margin-top: -1px;
+     height: 116px; 
  }
 
  .bluredHeader {
