@@ -265,4 +265,12 @@ p {
   .call-to-section .container {
     max-width: 100%;
   }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .main-footer section {
+    padding-bottom: 30px;
+  }
 }
