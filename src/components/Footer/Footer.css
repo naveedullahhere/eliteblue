@@ -196,22 +196,48 @@ img#fLogo {
     width: 212px;
 }
 
+.main-footer .circle {
+    position: absolute;
+    top: -78px;
+    right: -78px;
+    width: 282px;
+    height: 282px;
+    background: #ffffff70;
+    border-radius: 50%;
+}
+
+.main-footer .circle.circle-1 {
+    position: absolute;
+    left: -78px;
+    width: 228px;
+    height: 228px;
+    background: #ffffff40;
+    border-radius: 50%;
+    z-index: 0;
+    top: 405px;
+}
+
 @media (max-width:480px) {
     .newsletter-widget .widget-content {
         margin-top: 28px;
     }
-    .main-footer .footer-bottom .inner { 
-        padding: 16px 0px; 
+
+    .main-footer .footer-bottom .inner {
+        padding: 16px 0px;
     }
 }
 
-@media (max-width: 480px) { 
-  
+@media (max-width: 480px) {
+    .main-footer .circle.circle-1 {
+        top: 762px;
+    }
+
     .copyright {
-      font-size: 12px;
+        font-size: 12px;
+        margin-inline: 12px;
     }
-  
+
     .main-footer section {
-      padding-bottom: 30px;
+        padding-bottom: 30px;
     }
-  }
+}

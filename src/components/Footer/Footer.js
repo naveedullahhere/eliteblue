@@ -5,12 +5,13 @@ import Logo from '../Assets/logof.png';
 
 export const Footer = () => {
   return (
-    <footer class="main-footer normal-padding">
+    <footer class="main-footer normal-padding position-relative overflow-hidden">
       <div class="container">
 
         <section class="section">
+          <div className="circle"></div>
+          <div className="circle circle-1"></div>
           <div class="row clearfix">
-
 
             <div class="column col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <div class="footer-widget logo-widget info-widget">

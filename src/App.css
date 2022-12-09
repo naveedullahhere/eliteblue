@@ -166,6 +166,10 @@
   padding: 0;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: var(--thm-b-font);
 }
@@ -249,7 +253,7 @@ p {
 
   p.para {
     line-height: 1.75;
-  } 
+  }
 
   .call-to-section h2 {
     font-size: 40px;
