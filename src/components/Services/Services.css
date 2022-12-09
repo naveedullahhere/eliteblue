@@ -140,11 +140,11 @@
     }
 
     .services {
-        background: url('../Assets/bg-services.png') no-repeat top/contain;
+        background: url('../Assets/bg-services.png') repeat top/contain;
     }
 
     .portfolio {
-        background: url('../Assets/portfolio-bg.png') no-repeat top/contain;
+        background: url('../Assets/portfolio-bg.png') repeat top/contain;
     }
 
     .services-card {
