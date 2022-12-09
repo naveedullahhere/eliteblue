@@ -83,7 +83,7 @@ export const HomeSections = () => {
                                 return <div class="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12" >
                                     <div class="inner-box">
                                         <figure class="image"><img src={item.image} alt="" /></figure>
-                                        <a href="images/gallery/1.jpg" class="lightbox-image overlay-box" data-fancybox="gallery"></a>
+                                        <a href="images/gallery/1.jpg" class="lightbox-image overlay-box" target='_blank'></a>
                                         <div class="cap-box">
                                             <div class="cap-inner">
                                                 <div class="cat"><span>{item.category}</span></div>
