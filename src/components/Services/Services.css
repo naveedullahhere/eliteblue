@@ -1,0 +1,10 @@
+.gradiant {
+    text-transform: uppercase;
+    background: linear-gradient(to right, var(--primary) 0%, #16539e87 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.ServicesImg{
+    width: 380px;
+}
