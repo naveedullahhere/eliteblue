@@ -65,13 +65,11 @@ export const Header = () => {
             </header>
 
             <div class={`side-menu__block ${isActive ? "active" : ""}`}>
-                <div className="side-menu__block-overlay custom-cursor__overlay" onClick={() => setActive(false)}>
-                    <div className="cursor"></div>
-                    <div className="cursor-follower"></div>
+                <div className="side-menu__block-overlay custom-cursor__overlay" onClick={() => setActive(false)}> 
                 </div>
                 <div className="side-menu__block-inner">
                     <div className="side-menu__top justify-content-end">
-                        <a href="#" className="side-menu__toggler side-menu__close-btn" onClick={() => setActive(false)}><img src={Close} alt="" /></a>
+                        <a className="side-menu__toggler side-menu__close-btn" onClick={() => setActive(false)}><img src={Close} alt="" /></a>
                     </div>
 
                     <nav className="mobile-nav__container">
