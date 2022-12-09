@@ -249,28 +249,9 @@ p {
 
   p.para {
     line-height: 1.75;
-  }
-
-  .technologiesImg {
-    padding-inline: 0px;
-    padding-block: 14px;
-  }
+  } 
 
   .call-to-section h2 {
     font-size: 40px;
-  }
-}
-
-@media (max-width: 480px) {
-  .call-to-section .container {
-    max-width: 100%;
-  }
-
-  .copyright {
-    font-size: 12px;
-  }
-
-  .main-footer section {
-    padding-bottom: 30px;
   }
 }

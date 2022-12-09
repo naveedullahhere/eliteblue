@@ -195,3 +195,23 @@
 img#fLogo {
     width: 212px;
 }
+
+@media (max-width:480px) {
+    .newsletter-widget .widget-content {
+        margin-top: 28px;
+    }
+    .main-footer .footer-bottom .inner { 
+        padding: 16px 0px; 
+    }
+}
+
+@media (max-width: 480px) { 
+  
+    .copyright {
+      font-size: 12px;
+    }
+  
+    .main-footer section {
+      padding-bottom: 30px;
+    }
+  }

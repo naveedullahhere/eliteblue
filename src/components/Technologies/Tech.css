@@ -6,3 +6,11 @@
 .technologiesImg>img {
     filter: drop-shadow(-28px 28px 13px #ddd);
 }
+@media (max-width: 768px) { 
+    .technologiesImg {
+        padding-inline: 0px;
+        padding-block: 14px;
+      }
+}
+
+ 

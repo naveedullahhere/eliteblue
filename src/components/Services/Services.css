@@ -6,13 +6,13 @@
 
 }
 
-@property --myColor1 {
+@property --services_light {
     syntax: '<color>';
     initial-value: #eff7ff;
     inherits: false;
 }
 
-@property --myColor2 {
+@property --services_dark {
     syntax: '<color>';
     initial-value: rgba(255, 255, 255, 0);
     inherits: false;
@@ -23,16 +23,16 @@
 }
 
 .services-card {
-    background: linear-gradient(var(--myColor1), var(--myColor2));
+    background: linear-gradient(var(--services_light), var(--services_dark));
     background-color: var(--white);
     margin-bottom: 30px;
     border-radius: 26px;
-    transition: --myColor1 .3s, --myColor2 .3s;
+    transition: --services_light .3s, --services_dark .3s;
 }
 
 .services-card:hover {
-    --myColor1: #eff7ff;
-    --myColor2: rgba(233, 233, 233, 0.3);
+    --services_light: #eff7ff;
+    --services_dark: rgba(233, 233, 233, 0.3);
 }
 
 .services-card:nth-child(even) .row {
@@ -42,5 +42,12 @@
 @media (max-width: 768px) {
     .ServicesImg {
         width: 313px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-card {
+        --services_light: #d9edff;
+        --services_dark: rgba(233, 233, 233, 0.3);
     }
 }
