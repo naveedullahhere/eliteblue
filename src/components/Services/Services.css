@@ -38,3 +38,9 @@
 .services-card:nth-child(even) .row {
     flex-direction: row-reverse;
 }
+
+@media (max-width: 768px) {
+    .ServicesImg {
+        width: 313px;
+    }
+}

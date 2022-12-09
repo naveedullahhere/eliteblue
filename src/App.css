@@ -237,3 +237,8 @@ p {
   text-transform: uppercase;
   margin-bottom: 12px;
 }
+@media (max-width: 768px) {
+  .heading { 
+      font-size: 48px; 
+  }
+}

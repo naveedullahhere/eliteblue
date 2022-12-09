@@ -495,12 +495,15 @@
 
  @media only screen and (max-width: 479px) {
      .main-header .nav-outer {
-         order: 1;
+         /* order: 1; */
      }
 
      .main-header .header-upper .inner-container {
-         display: flex;
+         /* display: flex; */
      }
+     .side-menu__content {
+        padding-inline: 40px!important; 
+    }
  }
 
  nav a,
