@@ -56,3 +56,28 @@
     margin: 0px 0px 25px;
     z-index: 3;
 }
+
+@media (max-width:992px) {
+    .call-to-section .inner {
+        padding: 55px 44px;
+    }
+
+    .call-to-section h2 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .call-to-section .inner {
+        padding: 38px 28px;
+    }
+
+    .call-to-section .shape-2 {
+        right: 68px;
+        width: 416px;
+        height: 56px;
+    }
+    .call-to-section .container{
+        max-width: 94%;
+    }
+}

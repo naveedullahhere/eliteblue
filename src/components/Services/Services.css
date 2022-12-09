@@ -5,6 +5,36 @@
     -webkit-text-fill-color: transparent;
 
 }
-.ServicesImg{
+
+@property --myColor1 {
+    syntax: '<color>';
+    initial-value: #eff7ff;
+    inherits: false;
+}
+
+@property --myColor2 {
+    syntax: '<color>';
+    initial-value: rgba(255, 255, 255, 0);
+    inherits: false;
+}
+
+.ServicesImg {
     width: 380px;
+}
+
+.services-card {
+    background: linear-gradient(var(--myColor1), var(--myColor2));
+    background-color: var(--white);
+    margin-bottom: 30px;
+    border-radius: 26px;
+    transition: --myColor1 .3s, --myColor2 .3s;
+}
+
+.services-card:hover {
+    --myColor1: #eff7ff;
+    --myColor2: rgba(233, 233, 233, 0.3);
+}
+
+.services-card:nth-child(even) .row {
+    flex-direction: row-reverse;
 }

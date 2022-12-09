@@ -1,0 +1,8 @@
+.technologiesImg {
+    padding-inline: 14px;
+    padding-block: 24px;
+}
+
+.technologiesImg>img {
+    filter: drop-shadow(-28px 28px 13px #ddd);
+}
