@@ -4,15 +4,12 @@ import { HomeForm } from '../Forms/HomeForm';
 import Portfolio from '../Portfolio.json';
 import Circle from '../Assets/shape-circle.png';
 import Service from '../Services/Service';
-// import p1 from '../Assets/1.jpg';
-// import p2 from '../Assets/2.jpg';
-// import p3 from '../Assets/3.jpg';
-// import p4 from '../Assets/4.jpg';
-// import p5 from '../Assets/5.jpg';
-// import p6 from '../Assets/6.jpg';
-import './Home.css';
 import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
+import './Home.css';
+
+
+
 
 export const HomeSections = () => {
     return (
@@ -28,7 +25,7 @@ export const HomeSections = () => {
                                     <p class="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>
                                 </div>
                             </div>
-                            <Button link="" text="Learn more" type="dark" />
+                            <Button link="about" text="Learn more" type="dark" />
                         </div>
                         <div class="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-5 shadow-main mt-lg-0 mt-5 mx-auto">
                             <HomeForm action="" method="" formId="contactForm" />
@@ -71,12 +68,9 @@ export const HomeSections = () => {
                                 <h2 class="heading">RECENT WORK
                                     <span class="dot">.</span>
                                 </h2>
-                                <p class="para">A wide selection of solutions is available, which are ideal for your project’s success. We mix digital craftsmanship with customer experiences and brand development.</p>
                             </div>
                         </div>
                     </div>
-
-
 
                     <div class="filter-list row">
                         {
@@ -121,11 +115,11 @@ export const HomeSections = () => {
                         <div className="col-12">
                             <div class="head">
                                 <h4 class="heading-sm">TECHNOLOGIES WE USE
-</h4>
+                                </h4>
                                 <h2 class="heading">Highlights of technologies we use
                                     <span class="dot">.</span>
                                 </h2>
-                             </div>
+                            </div>
                         </div>
                     </div>
 
