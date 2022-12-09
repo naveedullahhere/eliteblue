@@ -27,7 +27,7 @@ export const HomeSections = () => {
                             </div>
                             <Button link="about" text="Learn more" type="dark" />
                         </div>
-                        <div class="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-5 shadow-main mt-lg-0 mt-5 mx-auto">
+                        <div class="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-md-5 rounded-4 shadow-main mt-lg-0 mt-5 mx-auto">
                             <HomeForm action="" method="" formId="contactForm" />
                         </div>
                     </div>
