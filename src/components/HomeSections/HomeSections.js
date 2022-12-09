@@ -14,20 +14,20 @@ import './Home.css';
 export const HomeSections = () => {
     return (
         <>
-            <section class="section bg-radial">
-                <div class="container">
-                    <div class="row clearfix">
-                        <div class="col-lg-6 col-12 my-auto">
-                            <div class="inner">
-                                <div class="head">
+            <section className="section bg-radial">
+                <div className="container">
+                    <div className="row clearfix">
+                        <div className="col-lg-6 col-12 my-auto">
+                            <div className="inner">
+                                <div className="head">
                                     <h4 className='heading-sm'>About</h4>
-                                    <h2 className='heading'>we do design, code & develipment<span class="dot">.</span></h2>
-                                    <p class="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>
+                                    <h2 className='heading'>we do design, code & develipment<span className="dot">.</span></h2>
+                                    <p className="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>
                                 </div>
                             </div>
                             <Button link="about" text="Learn more" type="dark" />
                         </div>
-                        <div class="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-md-5 rounded-4 shadow-main mt-lg-0 mt-5 mx-auto">
+                        <div className="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-md-5 rounded-4 shadow-main mt-lg-0 mt-5 mx-auto">
                             <HomeForm action="" method="" formId="contactForm" />
                         </div>
                     </div>
@@ -40,12 +40,12 @@ export const HomeSections = () => {
                             <img src={Circle} alt="Shape" />
                         </div>
                         <div className="col-12">
-                            <div class="head">
-                                <h4 class="heading-sm">What we can do for you</h4>
-                                <h2 class="heading">Services We can help you with
-                                    <span class="dot">.</span>
+                            <div className="head">
+                                <h4 className="heading-sm">What we can do for you</h4>
+                                <h2 className="heading">Services We can help you with
+                                    <span className="dot">.</span>
                                 </h2>
-                                <p class="para">A wide selection of solutions is available, which are ideal for your project’s success. We mix digital craftsmanship with customer experiences and brand development.</p>
+                                <p className="para">A wide selection of solutions is available, which are ideal for your project’s success. We mix digital craftsmanship with customer experiences and brand development.</p>
                             </div>
                         </div>
                     </div>
@@ -63,26 +63,26 @@ export const HomeSections = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div class="head">
-                                <h4 class="heading-sm">Portfolio</h4>
-                                <h2 class="heading">RECENT WORK
-                                    <span class="dot">.</span>
+                            <div className="head">
+                                <h4 className="heading-sm">Portfolio</h4>
+                                <h2 className="heading">RECENT WORK
+                                    <span className="dot">.</span>
                                 </h2>
                             </div>
                         </div>
                     </div>
 
-                    <div class="filter-list row">
+                    <div className="filter-list row">
                         {
                             Portfolio.map((item) => {
-                                return <div class="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12" >
-                                    <div class="inner-box">
-                                        <figure class="image"><img src={item.image} alt="" /></figure>
-                                        <a href="images/gallery/1.jpg" class="lightbox-image overlay-box" target='_blank'></a>
-                                        <div class="cap-box">
-                                            <div class="cap-inner">
-                                                <div class="cat"><span>{item.category}</span></div>
-                                                <div class="title">
+                                return <div className="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12" >
+                                    <div className="inner-box">
+                                        <figure className="image"><img src={item.image} alt="" /></figure>
+                                        <a href="images/gallery/1.jpg" className="lightbox-image overlay-box" target='_blank'></a>
+                                        <div className="cap-box">
+                                            <div className="cap-inner">
+                                                <div className="cat"><span>{item.category}</span></div>
+                                                <div className="title">
                                                     <h5><a href={item.portfolio_url}>{item.title}</a></h5>
                                                 </div>
                                             </div>
@@ -92,13 +92,13 @@ export const HomeSections = () => {
                             })
                         }
                     </div>
-                    <div class="row filter-layout dynamic-filter-count-layout masonary-layout">
+                    <div className="row filter-layout dynamic-filter-count-layout masonary-layout">
                         {/* {
                             Portfolio.map((item) => {
-                                return <div class="col-lg-6 col-md-6 filter-item masonary-item branding ">
-                                    <div class="portfolio-masonary__box">
+                                return <div className="col-lg-6 col-md-6 filter-item masonary-item branding ">
+                                    <div className="portfolio-masonary__box">
                                         <img src={item.image} alt="" />
-                                        <div class="portfolio-masonary__box-content">
+                                        <div className="portfolio-masonary__box-content">
                                             <p>{item.category}</p>
                                             <h3><a href={item.portfolio_url}>{item.title}</a></h3>
                                         </div>
@@ -113,11 +113,11 @@ export const HomeSections = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <div class="head">
-                                <h4 class="heading-sm">TECHNOLOGIES WE USE
+                            <div className="head">
+                                <h4 className="heading-sm">TECHNOLOGIES WE USE
                                 </h4>
-                                <h2 class="heading">Highlights of technologies we use
-                                    <span class="dot">.</span>
+                                <h2 className="heading">Highlights of technologies we use
+                                    <span className="dot">.</span>
                                 </h2>
                             </div>
                         </div>

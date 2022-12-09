@@ -143,7 +143,7 @@
         background: url('../Assets/bg-services.png') repeat top/contain;
         background-attachment: fixed;
     }
-    
+
     .portfolio {
         background: url('../Assets/portfolio-bg.png') repeat top/contain;
         background-attachment: fixed;
@@ -177,3 +177,14 @@
     }
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .heading { 
+        font-size: 54px!important; 
+    }
+    p.para { 
+        font-size: 16px!important; 
+        line-height: 1.7!important;  
+    }
+}
+

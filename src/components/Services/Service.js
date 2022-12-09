@@ -8,7 +8,7 @@ export default function Service({ title, description, image, link }) {
         <div className='col-12 text-center my-4 services-card'>
             <div className="row">
                 <div className="col-12">
-                    <div class="bottom-curve"></div>
+                    <div className="bottom-curve"></div>
                 </div>
                 <div className="col-md-6 col-12 my-auto">
                     <img src={image} alt="Services" className='ServicesImg' draggable="false" />
@@ -19,8 +19,8 @@ export default function Service({ title, description, image, link }) {
                         <p className="para">
                             {description}
                         </p>
-                        <div class="link-box"><a href={link}>
-                            <span class=""> <img src={AngleRight} alt="Angle" className='angle' /></span>
+                        <div className="link-box"><a href={link}>
+                            <span className=""> <img src={AngleRight} alt="Angle" className='angle' /></span>
                         </a>
                         </div>
                     </div>

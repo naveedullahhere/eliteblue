@@ -3,6 +3,8 @@ import './Header.css';
 import Logo from '../Assets/logo.png';
 import Close from '../Assets/Close.png';
 import { Button } from '../Button/Button';
+import { Link } from 'react-router-dom';
+
 
 export const Header = () => {
     const [isActive, setActive] = useState(false);
@@ -20,9 +22,9 @@ export const Header = () => {
                     <div className="inner-container clearfix">
 
                         <div className="logo-box">
-                            <div className="logo"><a href="index-2.html" title="Linoor - DIgital Agency HTML Template"><img
+                            <div className="logo"><Link to="/" title="Linoor - DIgital Agency HTML Template"><img
                                 src={Logo} id="thm-logo" alt="Linoor - DIgital Agency HTML Template"
-                                title="Linoor - DIgital Agency HTML Template" /></a></div>
+                                title="Linoor - DIgital Agency HTML Template" /></Link></div>
                         </div>
                         <div className="nav-outer clearfix">
 
@@ -31,22 +33,22 @@ export const Header = () => {
                             <nav className="main-menu navbar-expand-md navbar-light">
                                 <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul className="navigation clearfix">
-                                        <li><a
-                                            href="#">Home</a>
+                                        <li><Link
+                                            to="/">Home</Link>
                                         </li>
-                                        <li><a href="#">About</a>
+                                        <li><Link to="about">About</Link>
                                         </li>
-                                        <li><a href="#">Portfolio</a>
+                                        <li><Link to="#">Portfolio</Link>
                                         </li>
-                                        <li className="dropdown"><a href="#">Services</a>
+                                        <li className="dropdown"><a to="#">Services</a>
                                             <ul>
-                                                <li><a href="#">All Services</a></li>
-                                                <li><a href="#">Web Development</a></li>
-                                                <li><a href="#">ReactJS</a></li>
+                                                <li><Link to="#">All Services</Link></li>
+                                                <li><Link to="#">Web Development</Link></li>
+                                                <li><Link to="#">ReactJS</Link></li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="#">Contact us</a>
+                                            <a to="#">Contact us</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -73,24 +75,24 @@ export const Header = () => {
                     </div>
 
                     <nav className="mobile-nav__container">
-                        <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                            <ul class="navigation clearfix">
-                                <li><a href="#">Home</a>
+                        <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                            <ul className="navigation clearfix">
+                                <li><Link to="#">Home</Link>
                                 </li>
-                                <li><a href="#">About</a>
+                                <li><Link to="#">About</Link>
                                 </li>
-                                <li><a href="#">Portfolio</a>
+                                <li><Link to="#">Portfolio</Link>
                                 </li>
-                                <li class="dropdown">
-                                    <a href="about.html">Services<div class="dropdown-btn"><span class="fa fa-angle-right"></span></div></a>
+                                <li className="dropdown">
+                                    <a href="about.html">Services<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></a>
                                     <ul>
-                                        <li><a href="#">All Services</a></li>
-                                        <li><a href="#">Web Development</a></li>
-                                        <li><a href="#">ReactJS</a></li>
+                                        <li><Link to="#">All Services</Link></li>
+                                        <li><Link to="#">Web Development</Link></li>
+                                        <li><Link to="#">ReactJS</Link></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#">Contact us</a>
+                                    <a to="#">Contact us</a>
                                 </li>
                             </ul>
                         </div>
@@ -100,10 +102,10 @@ export const Header = () => {
                         <p>We are a prominent software development business focused on enterprise solutions and outsourced product development, offering professional IT solutions to our global clientele.</p>
                         <p><a href="mailto:info@eliteblue.net">info@eliteblue.net</a> <br /> <a href="tel:+923118091779">+92 311 809 1779</a></p>
                         <div className="side-menu__social">
-                            <a href="#"><i className="fab fa-facebook-square"></i></a>
-                            <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>
-                            <a href="#"><i className="fab fa-pinterest-p"></i></a>
+                            <a to="#"><i className="fab fa-facebook-square"></i></a>
+                            <a to="#"><i className="fab fa-twitter"></i></a>
+                            <a to="#"><i className="fab fa-instagram"></i></a>
+                            <a to="#"><i className="fab fa-pinterest-p"></i></a>
                         </div>
                     </div>
                 </div>
