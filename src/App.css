@@ -237,8 +237,32 @@ p {
   text-transform: uppercase;
   margin-bottom: 12px;
 }
+
 @media (max-width: 768px) {
-  .heading { 
-      font-size: 48px; 
+  .heading {
+    font-size: 48px !important;
+  }
+
+  .heading-sm {
+    font-size: 22px !important;
+  }
+
+  p.para {
+    line-height: 1.75;
+  }
+
+  .technologiesImg {
+    padding-inline: 0px;
+    padding-block: 14px;
+  }
+
+  .call-to-section h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .call-to-section .container {
+    max-width: 100%;
   }
 }

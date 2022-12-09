@@ -99,8 +99,8 @@ export const Header = () => {
                     </nav>
                     <div className="side-menu__sep"></div>
                     <div className="side-menu__content">
-                        <p>Kuch Bhi Apne Business Ke Bare Me. Kuch Bhi Apne Business Ke Bare Me. Kuch Bhi Apne Business Ke Bare Me. Kuch Bhi Apne Business Ke Bare Me. </p>
-                        <p><a href="mailto:mannananxari@kodrz.com">naveedullahhere@kodrz.com</a> <br /> <a href="tel:888-999-0000">8000 0000 0000 </a></p>
+                        <p>We are a prominent software development business focused on enterprise solutions and outsourced product development, offering professional IT solutions to our global clientele.</p>
+                        <p><a href="mailto:info@eliteblue.net">info@eliteblue.net</a> <br /> <a href="tel:+923118091779">+92 311 809 1779</a></p>
                         <div className="side-menu__social">
                             <a href="#"><i className="fab fa-facebook-square"></i></a>
                             <a href="#"><i className="fab fa-twitter"></i></a>

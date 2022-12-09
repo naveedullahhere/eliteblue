@@ -30,7 +30,7 @@ export const HomeSections = () => {
                             </div>
                             <Button link="" text="Learn more" type="dark" />
                         </div>
-                        <div class="col-lg-6 col-12 bg-white p-5 rounded-5 shadow-main">
+                        <div class="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-5 shadow-main mt-lg-0 mt-5 mx-auto">
                             <HomeForm action="" method="" formId="contactForm" />
                         </div>
                     </div>
@@ -52,7 +52,7 @@ export const HomeSections = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row my-4">
+                    <div className="row my-4 w-100 mx-auto">
                         <Service title="BLOCKCHAIN DEVELOPMENT" description="Blockchain development services are revolutionising the way people deal all around the world. With the support of secure, dependable, and high-quality blockchain technology development services, you can avoid third-party intrusion." image="./Assets/services_1.png" />
                         <Service title="DIGITAL MARKETING" description="There are more leads. More sales are expected. Increased revenue. Eliteblue Technologies provides digital marketing services. We’ll assist your company in making the most significant impact, from traffic to income." image="./Assets/services_2.png" />
                         <Service title="ECOMMERCE SOFTWARE DEVELOPMENT" description="ECommerce software development addresses the requirement for a digital presence from worldwide manufacturing, distribution, and retail organizations." image="./Assets/services_3.png" />
