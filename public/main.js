@@ -1,8 +1,8 @@
 (function () {
     $(window).scroll(function () {
         var oVal = $(window).scrollTop() / 30;
-        $(".blur").css("filter", `blur(${oVal}px) `);
-        $(".bannerLogo>img").css("transform", `scale(${oVal / 4 <= 1 ? 1 : oVal / 4})`);
+        // $(".blur").css("filter", `blur(${oVal}px) `);
+        // $(".bannerLogo>img").css("transform", `scale(${oVal / 4 <= 1 ? 1 : oVal / 4})`);
         // $("nav.nav").css("top", `${oVal}px `);
     });
 }).call(this);
