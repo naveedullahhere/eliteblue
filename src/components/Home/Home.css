@@ -1,7 +1,6 @@
  .bluredHeader {
      position: relative;
-     width: 100%;
-     height: calc(75vh + 86px);
+     width: 100%; 
      z-index: -1;
      top: 0;
      left: 0;

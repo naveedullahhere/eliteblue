@@ -240,4 +240,9 @@ img#fLogo {
     .main-footer section {
         padding-bottom: 30px;
     }
+
+    .main-footer .newsletter-widget .text,
+    .main-footer .footer-bottom .inner {
+        line-height: 22px;
+    }
 }

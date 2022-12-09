@@ -642,7 +642,7 @@
      }
 
      .nav-outer .mobile-nav-toggler {
-         margin: 22px 0px 0px!important;
+         margin: 22px 0px 0px !important;
      }
 
      .side-menu__block-inner {
@@ -702,6 +702,8 @@
  }
 
  @media only screen and (min-width: 768px) {
+
+
 
      .main-menu .navigation>li>ul,
      .main-menu .navigation>li>ul>li>ul {
@@ -844,7 +846,22 @@
  }
 
 
+ .main-header .header-upper {
+     height: 116px;
+ }
+
+ .bluredHeader {
+     height: calc(100vh - 116px);
+ }
+
  @media (max-width: 480px) {
+     .bluredHeader {
+         height: calc(100vh - 82px);
+     }
+
+     .main-header .header-upper {
+         height: 82px;
+     }
 
      .mobile-nav__container {
          padding-left: 25px;
