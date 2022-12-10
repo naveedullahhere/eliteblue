@@ -6,6 +6,7 @@ import Circle from '../Assets/shape-circle.png';
 import Service from '../Services/Service';
 import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
+import { motion } from 'framer-motion';
 import './Home.css';
 
 
@@ -13,7 +14,7 @@ import './Home.css';
 
 export const HomeSections = () => {
     return (
-        <>
+        <motion.div initial={{ width: 0, opacity: 0, x: 100 }} animate={{ width: "100%", opacity: 1, x: 0 }} exit={{ width: window.innerWidth, transition: { duration: 0.2 }, opacity: 0, x: 100 }}>
             <section className="section bg-radial">
                 <div className="container">
                     <div className="row ">
@@ -130,6 +131,6 @@ export const HomeSections = () => {
             <section className="section pt-0">
                 <LetsTalk />
             </section>
-        </>
+        </motion.div>
     )
 }

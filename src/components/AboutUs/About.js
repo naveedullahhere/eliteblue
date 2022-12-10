@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import { motion } from 'framer-motion';
 import { Button } from '../Button/Button';
 import { HomeForm } from '../Forms/HomeForm';
 import AboutImg from '../Assets/About/home.png';
@@ -8,8 +9,8 @@ import AboutSec from '../Assets/About/sec-2-vector.png';
 
 export const About = () => {
   return (
-    <>
-      <section className="section about-section position-relative overflow-hidden w-100">
+    <motion.div initial={{ width: 0, opacity: 0, x: 100 }} animate={{ width: "100%", opacity: 1, x: 0 }} exit={{ width: window.innerWidth, transition: { duration: 0.2 }, opacity: 0, x: 100 }}>
+    <section className="section about-section position-relative overflow-hidden w-100">
         <div className="container">
           <div className="circle"></div>
           <div className="circle circle-1"></div>
@@ -130,6 +131,6 @@ export const About = () => {
           </div>
         </div>
       </section>
-    </>
+    </motion.div>
   )
 }

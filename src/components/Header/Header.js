@@ -1,14 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.css';
 import Logo from '../Assets/logo.png';
 import Close from '../Assets/Close.png';
 import { Button } from '../Button/Button';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 export const Header = () => {
     const [isActive, setActive] = useState(false);
+    const { pathname } = useLocation();
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        setActive(false);
+    }, [pathname]);
     const toggleClass = () => {
         setActive(!isActive);
     };
@@ -77,9 +82,9 @@ export const Header = () => {
                     <nav className="mobile-nav__container">
                         <div className="collapse navbar-collapse show" id="navbarSupportedContent">
                             <ul className="navigation">
-                                <li><Link to="#">Home</Link>
+                                <li><Link to="/">Home</Link>
                                 </li>
-                                <li><Link to="#">About</Link>
+                                <li><Link to="about">About</Link>
                                 </li>
                                 <li><Link to="#">Portfolio</Link>
                                 </li>
@@ -92,7 +97,7 @@ export const Header = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <a to="#">Contact us</a>
+                                    <Link to="contact">Contact us</Link>
                                 </li>
                             </ul>
                         </div>
