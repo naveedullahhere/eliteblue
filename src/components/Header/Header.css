@@ -811,7 +811,7 @@
      transition: all 500ms ease;
  }
 
- .mobile-nav__container li.dropdown .dropdown-btn.open {
+ .mobile-nav__container li.dropdown>.open .dropdown-btn {
      transform: rotate(-90deg);
      color: var(--dark);
  }
@@ -828,7 +828,7 @@
      line-height: 24px;
      font-weight: 500;
      display: flex;
-
+cursor: pointer;
      transition: all 500ms ease;
      font-family: "Teko", sans-serif;
      position: relative;

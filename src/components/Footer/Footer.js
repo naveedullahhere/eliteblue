@@ -12,7 +12,7 @@ export const Footer = () => {
         <section className="section">
           <div className="circle"></div>
           <div className="circle circle-1"></div>
-          <div className="row clearfix">
+          <div className="row">
 
             <div className="column col-xl-6 col-lg-6 col-md-6 col-sm-12">
               <div className="footer-widget logo-widget">
@@ -27,7 +27,7 @@ export const Footer = () => {
                       <li className="address"><span className="icon flaticon-pin-1"></span> Shahrah-e-Faisal Rd. P.E.C.S.H <br /> Block 6, Karachi, Pakistan.</li>
                     </ul>
                   </div>
-                  <ul className="social-links clearfix">
+                  <ul className="social-links ">
                     <li><a href="#"><span className="fab fa-facebook-square"></span></a></li>
                     <li><a href="#"><span className="fab fa-twitter"></span></a></li>
                     <li><a href="#"><span className="fab fa-instagram"></span></a></li>
@@ -55,14 +55,14 @@ export const Footer = () => {
               <div className="footer-widget links-widget">
                 <div className="widget-content">
                   <h6>Explore</h6>
-                  <div className="row clearfix">
+                  <div className="row">
                     <div className="col-md-6 col-sm-12">
                       <ul>
                         <li><Link to="about">About</Link></li>
                         <li><Link to="#">Servies</Link></li>
                         <li><Link to="#">Portfolio</Link></li>
                         <li><Link to="#">Anything Else</Link></li>
-                        <li><Link to="#">Contact</Link></li>
+                        <li><Link to="contact">Contact</Link></li>
                       </ul>
                     </div>
                   </div>
@@ -80,7 +80,7 @@ export const Footer = () => {
                   <h6>Newsletter</h6>
                   <div className="newsletter-form">
                     <form method="post" action="">
-                      <div className="form-group clearfix">
+                      <div className="form-group">
                         <input type="email" name="email" value="" placeholder="Email Address" className='light' required="" />
                         <button type="submit" className="theme-btn"><span className="fa fa-envelope"></span></button>
                       </div>
@@ -99,7 +99,7 @@ export const Footer = () => {
 
       <div className="footer-bottom">
         <div className="auto-container">
-          <div className="inner clearfix">
+          <div className="inner">
             <div className="copyright">© 2022 All Rights Reserved. Designed By Elite Blue Technologies</div>
           </div>
         </div>

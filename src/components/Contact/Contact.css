@@ -1,0 +1,63 @@
+.contactimg {
+    position: relative;
+    z-index: 1;
+    width: 60%;
+}
+
+
+.contact-instruction .imgSec {
+    margin-top: 66px;
+}
+
+.contact-instruction .circle.circle-1 {
+    position: absolute;
+    left: -78px;
+    width: 228px;
+    height: 228px;
+    background: #ffffff40;
+    border-radius: 50%;
+    z-index: 0;
+    top: 406px;
+}
+
+@media (max-width: 992px) {
+    .contact-instruction .imgSec {
+        margin-top: 22px;
+    }
+
+    .contact-instruction {
+        padding-block: 66px !important;
+    }
+}
+
+.contact__content ul li {
+
+
+
+    position: relative;
+    display: block;
+    line-height: 32px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+.contact__content ul li .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 30px;
+    font-size: 16px;
+    color: var(--dark);
+}
+
+.contact__content ul li a {
+    position: relative;
+    color: var(--dark);
+    line-height: 28px;
+    transition: all 0.3s ease;
+}
+
+.main__form {
+    background: url(../Assets/Contact/form-bg.png) right top/cover no-repeat;
+
+}

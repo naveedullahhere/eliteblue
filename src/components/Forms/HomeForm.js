@@ -5,7 +5,7 @@ import './Form.css';
 export const HomeForm = ({ action, method, formId }) => {
     return (
         <form method={method} action={action} id={formId} noValidate="novalidate">
-            <div className="row clearfix">
+            <div className="row">
                 <div className="form-group col-12">
                     <div className="field-inner">
                         <input type="text" className='light' name="name" placeholder="Name" />

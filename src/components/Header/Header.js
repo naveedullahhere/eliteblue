@@ -19,20 +19,20 @@ export const Header = () => {
 
 
                 <div className="header-upper">
-                    <div className="inner-container clearfix">
+                    <div className="inner-container ">
 
                         <div className="logo-box">
                             <div className="logo"><Link to="/" title="Linoor - DIgital Agency HTML Template"><img
                                 src={Logo} id="thm-logo" alt="Linoor - DIgital Agency HTML Template"
                                 title="Linoor - DIgital Agency HTML Template" /></Link></div>
                         </div>
-                        <div className="nav-outer clearfix">
+                        <div className="nav-outer">
 
                             <div className="mobile-nav-toggler" onClick={toggleClass}><span className="icon flaticon-menu-2"></span><span className="txt">Menu</span></div>
 
                             <nav className="main-menu navbar-expand-md navbar-light">
-                                <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                    <ul className="navigation clearfix">
+                                <div className="collapse navbar-collapse show" id="navbarSupportedContent">
+                                    <ul className="navigation">
                                         <li><Link
                                             to="/">Home</Link>
                                         </li>
@@ -48,14 +48,14 @@ export const Header = () => {
                                             </ul>
                                         </li>
                                         <li>
-                                            <a to="#">Contact us</a>
+                                            <Link to="contact">Contact us</Link>
                                         </li>
                                     </ul>
                                 </div>
                             </nav>
                         </div>
 
-                        <div className="other-links clearfix">
+                        <div className="other-links">
                             <div className="link-box">
                                 <div className="call-us">
                                     <Button text="get a quote" link="" type="dark" />
@@ -67,7 +67,7 @@ export const Header = () => {
             </header>
 
             <div class={`side-menu__block ${isActive ? "active" : ""}`}>
-                <div className="side-menu__block-overlay custom-cursor__overlay" onClick={() => setActive(false)}> 
+                <div className="side-menu__block-overlay custom-cursor__overlay" onClick={() => setActive(false)}>
                 </div>
                 <div className="side-menu__block-inner">
                     <div className="side-menu__top justify-content-end">
@@ -75,8 +75,8 @@ export const Header = () => {
                     </div>
 
                     <nav className="mobile-nav__container">
-                        <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                            <ul className="navigation clearfix">
+                        <div className="collapse navbar-collapse show" id="navbarSupportedContent">
+                            <ul className="navigation">
                                 <li><Link to="#">Home</Link>
                                 </li>
                                 <li><Link to="#">About</Link>
@@ -84,7 +84,7 @@ export const Header = () => {
                                 <li><Link to="#">Portfolio</Link>
                                 </li>
                                 <li className="dropdown">
-                                    <a href="about.html">Services<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></a>
+                                    <a>Services<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></a>
                                     <ul>
                                         <li><Link to="#">All Services</Link></li>
                                         <li><Link to="#">Web Development</Link></li>
