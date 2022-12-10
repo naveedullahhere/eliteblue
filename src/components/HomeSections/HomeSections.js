@@ -78,7 +78,7 @@ export const HomeSections = () => {
 
                     <div className="filter-list row">
                         {
-                            Portfolio.map((item) => {
+                            Portfolio.slice(0, 6).map((item) => {
                                 return <div className="gallery-item mix all web-design col-lg-4 col-md-6 col-sm-12" >
                                     <div className="inner-box">
                                         <figure className="image"><img src={item.image} alt="" /></figure>

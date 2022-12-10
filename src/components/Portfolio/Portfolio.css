@@ -1,0 +1,63 @@
+.filters {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.filters .filter-tabs {
+    position: relative;
+    display: block;
+}
+
+.filters .filter {
+    transition: all .3s ease;
+}
+
+.filters .filter.active {
+    transition: all .3s ease;
+    color: var(--dark);
+    font-weight: 400;
+    /* padding-right: 20px; */
+}
+
+.filters.centered li {
+    margin: 0px 15px 10px;
+}
+
+.filters li.active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.filters li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 2px solid var(--thm-base);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.filters li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0px 0px;
+    cursor: pointer;
+    color: var(--thm-text);
+    font-weight: 300;
+    margin: 0 0px 10px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    font-family: var(--thm-font);
+}

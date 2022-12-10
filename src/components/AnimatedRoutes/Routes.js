@@ -4,6 +4,7 @@ import { HomeSections } from '../HomeSections/HomeSections';
 import { About } from '../AboutUs/About';
 import { Contact } from '../Contact/Contact';
 import { AnimatePresence } from 'framer-motion';
+import { Portfolio } from '../Portfolio/Portfolio';
 
 
 export const AnimatedRoutes = () => {
@@ -14,6 +15,7 @@ export const AnimatedRoutes = () => {
             <Routes location={locaion} key={locaion.pathname}>
                 <Route path="/" element={<HomeSections />} />
                 <Route path="about" element={<About />} />
+                <Route path="portfolio" element={<Portfolio />} />
                 <Route path="contact" element={<Contact />} />
             </Routes>
         </AnimatePresence>
