@@ -6,15 +6,21 @@ import Circle from '../Assets/shape-circle.png';
 import Service from '../Services/Service';
 import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
-import { motion } from 'framer-motion';
+import { motion, useScroll } from 'framer-motion';
 import './Home.css';
 
 
 
 
 export const HomeSections = () => {
+
+    const { scrollYProgress } = useScroll();
+
     return (
         <motion.div initial={{ width: 0, opacity: 0, x: 100 }} animate={{ width: "100%", opacity: 1, x: 0 }} exit={{ width: window.innerWidth, transition: { duration: 0.2 }, opacity: 0, x: 100 }}>
+            <motion.div className="progress-bar" style={{ scaleX: scrollYProgress }} >
+
+            </motion.div>
             <section className="section bg-radial">
                 <div className="container">
                     <div className="row ">
