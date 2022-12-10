@@ -39,16 +39,17 @@
 
 .about-instruction {
     background: url("../Assets/About/about_2.png") no-repeat center/cover;
+    background: rgb(255, 255, 255);
+}
+
+.what-we-do {
+    background: url("../Assets/pattern-bg.png") no-repeat center/cover;
 }
 
 .about-instruction .imgSec {
     margin-top: 146px;
 }
 
-.what-we-do {
-    background: url("../Assets/pattern-bg.png") no-repeat center/cover;
-
-}
 
 .service-sec .inner-sec {
     position: relative;
