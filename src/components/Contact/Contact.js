@@ -7,8 +7,8 @@ import { ContactForm } from './ContactForm';
 
 export const Contact = () => {
     return (
-        <motion.div initial={{ width: 0, opacity: 0, x: 100 }} animate={{ width: "100%", opacity: 1, x: 0 }} exit={{ width: window.innerWidth, transition: { duration: 0.2 }, opacity: 0, x: 100 }}>
-        <section className="section about-section position-relative overflow-hidden w-100 contact-instruction py-0 text-center">
+        <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} exit={{ transition: { duration: 0.3 }, opacity: 0, x: 100 }}>
+            <section className="section about-section position-relative overflow-hidden w-100 contact-instruction py-0 text-center">
                 <div className="container">
                     <div className="circle"></div>
                     <div className="circle circle-1"></div>
