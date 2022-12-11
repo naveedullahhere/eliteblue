@@ -9,6 +9,11 @@
 
 
 $(document).ready(function () {
+    //MixitUp Gallery Filters
+    if ($(".filter-list").length) {
+        $(".filter-list").mixItUp({});
+    }
+
     if ($(".side-menu__block").length) {
         $(".mobile-nav__container").find("li.dropdown a").on("click", function (e) {
             e.preventDefault();

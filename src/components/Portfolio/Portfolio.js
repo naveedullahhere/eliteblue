@@ -13,16 +13,16 @@ export const Portfolio = () => {
 
     const filterItems = (category) => {
         console.log("Out");
-        if (category === "all") {
-            setItems(PortfolioItem);
-        }
-        else {
-            const updatedItems = PortfolioItem.filter((currElem) => {
-                return currElem.filter === category;
-            });
-            setItems(updatedItems);
+        // if (category === "all") {
+        //     setItems(PortfolioItem);
+        // }
+        // else {
+        //     const updatedItems = PortfolioItem.filter((currElem) => {
+        //         return currElem.filter === category;
+        //     });
+        //     setItems(updatedItems);
 
-        }
+        // }
     }
 
     return (
@@ -39,10 +39,14 @@ export const Portfolio = () => {
                             </div>
                         </div>
                     </div>
-
-                    <PortfolioFilter filterItems={filterItems} />
-                    <PortfolioItems PortfolioItem={items} />
-
+                    <section className="gallery-section">
+                        <div className="auto-container">
+                            <div className="mixitup-gallery">
+                                <PortfolioFilter filterItems={filterItems} />
+                                <PortfolioItems PortfolioItem={items} />
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </section>
         </motion.div>

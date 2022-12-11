@@ -8,34 +8,21 @@ export const PortfolioFilter = ({ filterItems }) => {
     const [active, setActive] = useState(null);
 
     const handleFilter = ({ category, link }) => {
-        filterItems(category);
+        // filterItems(category);
         setIsActive(isActive => !isActive);
         setActive(link);
         console.log(category);
     }
 
     return (
-        <div class="filters">
-
-
+        <div className="filters">
             <ul className='filter-tabs filter-btns'>
                 {links.map((link) => {
-                    return <li class={`filter ${active == link.link && 'active'}`} onClick={() => handleFilter(link)}>{link.link}</li>
+                    return <li class={`filter ${active == link.link && 'active'}`} data-filter={`${link.category === "all" ? `all` : `.${link.category}`}`} onClick={() => handleFilter(link)}>{link.link}</li>
                 })}
             </ul>
-
-            <ul class="filter-tabs filter-btns clearfix">
-                {/* <li class="filter active" data-role="button" data-filter="all">All<sup>[8]</sup></li> */}
-                {/* <li class={`filter ${isActive && 'active'}`} onClick={() => handleFilter('all')}>All</li>
-                <li class={`filter ${isActive && 'active'}`} onClick={() => handleFilter('web')}>WEB APPLICATIONS</li>
-                <li class={`filter ${isActive && 'active'}`} onClick={() => handleFilter('all')}>MOBILE APPLICATION
-                </li>
-                <li class={`filter ${isActive && 'active'}`} onClick={() => handleFilter('all')}>GRAPHIC DESIGN
-                </li>
-                <li class={`filter ${isActive && 'active'}`} onClick={() => handleFilter('all')}>BLOCKCHAIN NFT
-                </li> */}
-            </ul>
         </div>
+
     )
 }
 
