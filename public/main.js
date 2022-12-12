@@ -16,13 +16,13 @@ const counter = () => {
         c++;
         countr.innerHTML = c.toString();
         document.getElementById("prgrs").style.width = `${c}%`;
-
+        $(document).ready(function () {
+            loadr.classList.add('active');
+        })
         if (c === 100) {
             clearInterval(count);
             countr.classList.add('hideLoader');
-            $(document).ready(function () {
-                loadr.classList.add('active');
-            })
+
         }
     }, 60);
 }
