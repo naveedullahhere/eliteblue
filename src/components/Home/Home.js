@@ -3,9 +3,10 @@ import config from '../../config';
 import Banner from '../Assets/bg.jpg';
 import BannerVideo from '../Assets/bg.mp4';
 import BannerLogo from '../Assets/BannerLogo.png';
-import './Home.css';
+import { motion } from 'framer-motion';
 import { useLocation } from "react-router-dom";
 import { Scroll } from '../ScrollDown/Scroll';
+import './Home.css';
 
 export const Home = () => {
     const location = useLocation();
