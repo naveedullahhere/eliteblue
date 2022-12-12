@@ -24,6 +24,10 @@
     display: none;
 }
 
+.gallery-item {
+    display: inline-block;
+}
+
 .filters.centered li {
     margin: 0px 15px 10px;
 }
