@@ -3,6 +3,7 @@ import { Button } from '../Button/Button';
 import { HomeForm } from '../Forms/HomeForm';
 import Portfolio from '../Portfolio.json';
 import Circle from '../Assets/shape-circle.png';
+import pr from '../Assets/pr.jpg';
 import Service from '../Services/Service';
 import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
@@ -59,6 +60,92 @@ export const HomeSections = () => {
                         <Service title="MOBILE APPLICATION DEVELOPMENT" link="#" description="Mobile Systems Custom Platform Back-End Executions Interface Apps" image="./Assets/services_4.png" />
                         <Service title="Web Development" link="#" description="Web development on the front-end Web development on the backend WordPress Customization Development of a CMS" image="./Assets/services_5.png" />
                         <Service title="Creative Branding & Design" link="#" description="Designing a brand identity and logo, as well as packaging, web and  mobile design, and layout and print design." image="./Assets/services_6.png" />
+                    </div>
+                </div>
+            </section>
+            <section class="services section">
+                <div class="container">
+                    <div class="sec-title">
+
+                        <div class="row">
+                            <div class="head col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                <h2 className='heading'>Lorem ipsum is are many <br />together<span class="dot">.</span></h2>
+                            </div>
+                            <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                <p class="para">There are many variations of passages of Lorem Ipsum available, but
+                                    the majority have suffered alteration in some form, by injected humour, or randomised.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services">
+                        <div class="row">
+                            <div class="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    <div class="bottom-curve"></div>
+                                    <div class="icon-box"><span class="flaticon-vector"></span></div>
+                                    <h5><a href="#">Sincerity</a></h5>
+                                    <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                    <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+                                </div>
+                            </div>
+
+
+                            <div class="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div class="inner-box wow fadeInUp animated" >
+                                    <div class="bottom-curve"></div>
+                                    <div class="icon-box"><span class="flaticon-digital"></span></div>
+                                    <h5><a href="#">Dedication</a></h5>
+                                    <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                    <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+                                </div>
+                            </div>
+
+
+                            <div class="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div class="inner-box wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms" >
+                                    <div class="bottom-curve"></div>
+                                    <div class="icon-box"><span class="flaticon-instant-camera"></span></div>
+                                    <h5><a href="#">Results</a></h5>
+                                    <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                    <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+                                </div>
+                            </div>
+
+
+                            <div class="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div class="inner-box wow fadeInUp animated" data-wow-delay="900ms">
+                                    <div class="bottom-curve"></div>
+                                    <div class="icon-box"><span class="flaticon-monitor"></span></div>
+                                    <h5><a href="#">Development</a></h5>
+                                    <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                    <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section jarallax">
+                <div class="container">
+                    <div class="content-box">
+                        <div class="sec-title">
+
+                            <div class="row">
+                                <div class="head col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-3">
+                                    <h2 className='heading'>Change us for your custom software development<span class="dot">.</span></h2>
+                                </div>
+                                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-4">
+                                    <p class="para">There are many variations of passages of Lorem Ipsum available, but
+                                        the majority have suffered alteration in some form, by injected humour, or randomised.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="link-box">
+                            <Button link={''} text={'Get a quote'} type={'dark'} />
+                        </div>
                     </div>
                 </div>
             </section>

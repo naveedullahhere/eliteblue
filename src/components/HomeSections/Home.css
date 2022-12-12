@@ -225,6 +225,136 @@ figure {
     transform-origin: 0%;
     z-index: 9999999;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
+}
+
+.servicez .inner-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    border-radius: 7px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 4%);
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 4%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.servicez .inner-box {
+    position: relative;
+    display: block;
+    padding: 50px 45px 40px;
+    background: #ffffff;
+    border-radius: 7px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 5%);
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 5%);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.servicez {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.servicez .inner-box:hover .bottom-curve {
+    transform: skewX(-45deg) scaleX(1);
+}
+
+.servicez .inner-box .bottom-curve {
+    position: absolute;
+    right: -70px;
+    bottom: -10px;
+    width: 120px;
+    height: 120px;
+    background: #ffffff;
+    opacity: 0.1;
+    z-index: 0;
+    transform: skewX(0deg) scaleX(0);
+    transition: all 0.5s ease;
+}
+
+.servicez .inner-box:hover:before {
+    background: var(--dark);
+    bottom: -10px;
+}
+
+.servicez .inner-box:hover h5 a {
+    color: #ffffff;
+}
+
+.inner-box h5 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--dark);
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+.servicez .inner-box:hover .icon-box {
+    color: var(--primary);
+}
+
+.servicez .inner-box .icon-box {
+    position: relative;
+    display: block;
+    color: var(--primary);
+    font-size: 64px;
+    line-height: 1em;
+    margin-bottom: 20px;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.servicez .inner-box:hover .text {
+    color: #999b9f;
+}
+
+.servicez .link-box {
+    position: absolute;
+    right: 3px;
+    bottom: 8px;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+}
+
+.servicez .link-box a {
+    position: relative;
+    line-height: 30px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.servicez .text {
+    position: relative;
+    display: block;
+    color: var(--thm-text);
+    padding: 30px 0px 0px;
+    z-index: 1;
+}
+ 
+
+.jarallax {
+    width: 100%;
+    height: 100%;
+    margin-block: 46px;
+    background: no-repeat center/cover url('../Assets/pr.jpg');
+    background-attachment: fixed;
+    color: white;
+}
+
+.jarallax p {
+    color: white;
 }
