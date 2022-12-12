@@ -53,7 +53,7 @@
  }
 
  #preloader.active {
-     transform: translatex(-100vw) skewX(36deg);
+     /* transform: translatex(-100vw) skewX(36deg); */
      opacity: 0;
      pointer-events: none;
      transition: ease 1.35s;
