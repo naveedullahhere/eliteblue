@@ -5,6 +5,7 @@ import BannerVideo from '../Assets/bg.mp4';
 import BannerLogo from '../Assets/BannerLogo.png';
 import './Home.css';
 import { useLocation } from "react-router-dom";
+import { Scroll } from '../ScrollDown/Scroll';
 
 export const Home = () => {
     const location = useLocation();
@@ -12,7 +13,8 @@ export const Home = () => {
     return (
         <>
             {location.pathname === "/" &&
-                <div>
+                <div className='position-relative'>
+                    <Scroll />
                     <div className='bluredHeader position-relative overflow-hidden'>
                         <div className={`blur position-${config.HEADER_TYPE}`} >
                             {/* <div className={`blur position-${config.HEADER_TYPE}`} style={{ "backgroundImage": `url('${Banner}')` }}></div> */}

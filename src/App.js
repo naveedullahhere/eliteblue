@@ -5,6 +5,7 @@ import { Footer } from './components/Footer/Footer';
 import { Home } from './components/Home/Home';
 
 import { AnimatedRoutes } from './components/AnimatedRoutes/Routes';
+import { Loader } from './components/Preloader/Loader';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <Loader />
         <Home />
         <Header />
         <AnimatedRoutes />

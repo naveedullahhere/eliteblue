@@ -7,7 +7,26 @@
     });
 }).call(this);
 
+const counter = () => {
 
+    var count = setInterval(() => {
+        let c = parseInt(document.getElementById("preloaderCounter").innerHTML);
+        var countr = document.getElementById("preloaderCounter");
+        var loadr = document.getElementById("preloader");
+        c++;
+        countr.innerHTML = c.toString();
+        document.getElementById("prgrs").style.width = `${c}%`;
+
+        if (c === 100) {
+            clearInterval(count);
+            countr.classList.add('hideLoader');
+            $(document).ready(function () {
+                loadr.classList.add('active');
+            })
+        }
+    }, 60);
+}
+counter();
 $(document).ready(function () {
     //MixitUp Gallery Filters
     if ($(".filter-list").length) {
@@ -20,7 +39,6 @@ $(document).ready(function () {
                 $(".filter-list").mixItUp({});
             }
         }
-
     })
 
     if ($(".side-menu__block").length) {

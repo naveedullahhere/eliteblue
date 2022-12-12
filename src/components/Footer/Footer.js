@@ -54,7 +54,7 @@ export const Footer = () => {
             <div className="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
               <div className="footer-widget links-widget">
                 <div className="widget-content">
-                  <h6>Explore</h6>
+                  <h6 class="mb-4 mt-md-0 mt-4">Explore</h6>
                   <div className="row">
                     <div className="col-md-6 col-sm-12">
                       <ul>
