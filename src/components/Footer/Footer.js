@@ -61,8 +61,8 @@ export const Footer = () => {
                         <li><Link to="about">About</Link></li>
                         <li><Link to="#">Servies</Link></li>
                         <li><Link to="portfolio">Portfolio</Link></li>
-                        <li><Link to="#">Anything Else</Link></li>
                         <li><Link to="contact">Contact</Link></li>
+                        <li><Link to="contact">Blogs</Link></li>
                       </ul>
                     </div>
                   </div>
