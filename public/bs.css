@@ -6882,14 +6882,14 @@ fieldset:disabled .btn {
 }
 
 .spinner-border {
-    --bs-spinner-width: 2rem;
-    --bs-spinner-height: 2rem;
-    --bs-spinner-vertical-align: -0.125em;
-    --bs-spinner-border-width: 0.25em;
+    --bs-spinner-width: 18px;
+    --bs-spinner-height: 18px;
+    --bs-spinner-vertical-align: -3px;
+    --bs-spinner-border-width: 2px;
     --bs-spinner-animation-speed: 0.75s;
     --bs-spinner-animation-name: spinner-border;
     border: var(--bs-spinner-border-width) solid currentcolor;
-    border-right-color: transparent
+    border-right-color: transparent;
 }
 
 .spinner-border-sm {
@@ -7978,7 +7978,7 @@ fieldset:disabled .btn {
 }
 
 .opacity-0 {
-    opacity: 0 
+    opacity: 0
 }
 
 .opacity-25 {
@@ -12636,4 +12636,3 @@ fieldset:disabled .btn {
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
-

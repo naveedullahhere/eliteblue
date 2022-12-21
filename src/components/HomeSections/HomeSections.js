@@ -66,7 +66,6 @@ export const HomeSections = () => {
             <section class="services section">
                 <div class="container">
                     <div class="sec-title">
-
                         <div class="row">
                             <div class="head col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className='heading'>Lorem ipsum is are many <br />together<span class="dot">.</span></h2>

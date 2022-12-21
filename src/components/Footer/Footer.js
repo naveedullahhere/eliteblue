@@ -1,10 +1,75 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { useForm } from 'react-hook-form';
+import toast from "react-hot-toast";
+import axios from 'axios';
 import Logo from '../Assets/logof.png';
 
 
 export const Footer = () => {
+  const URL = "https://eliteblue.net/webcms/public/";
+  const [isLoading, setIsLoading] = useState(false);
+  const [actualData, setData] = useState("Success!");
+
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm();
+
+
+  const onSubmit = (data) => {
+    setIsLoading(true)
+
+    data = JSON.stringify(data);
+    console.log(data);
+
+    const fetchData = async () => {
+      const response = await axios({
+        url: `${URL}api/newsletter-subscribe`,
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        data: data
+      })
+        .then(response => {
+          reset();
+          setData(response.data.message);
+        });
+      setIsLoading(false);
+      return response;
+    };
+
+    toast.promise(
+      fetchData(),
+      {
+        loading: 'loading...',
+        success: actualData,
+        error: "Something went wrong!",
+      }
+    );
+
+    // fetch(`${URL}api/newsletter-subscribe`, {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json' },
+    //   body: data
+    // })
+    //   .then(res => res.json())
+    //   .then(json => {
+    //     if (json.success) {
+    //       toast.success(json.message);
+    //     }
+    //     else {
+    //       toast.error(json.message);
+    //     }
+    //     setIsLoading(false);
+
+    //   }).catch(err => {
+    //     toast.error("Something Went Wrong!");
+    //     setIsLoading(false);
+    //   })
+  };
   return (
     <footer className="main-footer normal-padding position-relative overflow-hidden">
       <div className="container">
@@ -79,10 +144,19 @@ export const Footer = () => {
                 <div className="widget-content">
                   <h6>Newsletter</h6>
                   <div className="newsletter-form">
-                    <form method="post" action="">
+                    <form onSubmit={handleSubmit(onSubmit)}>
                       <div className="form-group">
-                        <input type="email" name="email" value="" placeholder="Email Address" className='light' required="" />
-                        <button type="submit" className="theme-btn"><span className="fa fa-envelope"></span></button>
+                        <input type="email" name="email" placeholder="Email Address" className={`light ${errors.email && "form-control is-invalid"}`}  {...register('email', { required: true, pattern: /^\S+@\S+$/i })} />
+                        <button type="submit" className="theme-btn">
+
+
+                          {isLoading ?
+                            <div class="spinner-border" role="status">
+                              <span class="visually-hidden">Loading...</span>
+                            </div>
+                            : <span className="fa fa-envelope"></span>}
+
+                        </button>
                       </div>
                     </form>
                   </div>

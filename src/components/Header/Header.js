@@ -4,12 +4,11 @@ import Logo from '../Assets/logo.png';
 import Close from '../Assets/Close.png';
 import { Button } from '../Button/Button';
 import { Link, useLocation } from 'react-router-dom';
-import { motion, useScroll } from 'framer-motion';
+import { useScroll } from 'framer-motion';
 
 
 export const Header = () => {
     const [isActive, setActive] = useState(false);
-    const { scrollYProgress } = useScroll();
     const { pathname } = useLocation();
 
     useEffect(() => {
@@ -23,7 +22,6 @@ export const Header = () => {
 
     return (
         <>
-            <motion.div className="progress-bar" style={{ scaleX: scrollYProgress }} ></motion.div>
             <header className="main-header header-style-one">
 
                 <div className="header-upper">
@@ -50,11 +48,11 @@ export const Header = () => {
                                         </li>
                                         <li className="dropdown"><a to="#">Services</a>
                                             <ul>
-                                                <li><Link to="">Creative Branding &amp; Design</Link></li>
-                                                <li><Link to="">Web Development</Link></li>
-                                                <li><Link to="">Ecommerce Software Development</Link></li>
-                                                <li><Link to="">Digital Marketing - SEO, PPC, SMM</Link></li>
-                                                <li><Link to="">Mobile Application Development</Link></li>
+                                                <li><Link to="branding-and-design">Creative Branding &amp; Design</Link></li>
+                                                <li><Link to="web-development">Web Development</Link></li>
+                                                <li><Link to="ecommerce-development">Ecommerce Software Development</Link></li>
+                                                <li><Link to="digital-marketing">Digital Marketing - SEO, PPC, SMM</Link></li>
+                                                <li><Link to="android-development">Mobile Application Development</Link></li>
                                             </ul>
                                         </li>
                                         <li>

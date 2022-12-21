@@ -155,6 +155,7 @@
   --primary-rgb: 22, 83, 158;
   --white: #fff;
   --light: #eceeef;
+  --thm-black: #222429;
   --dark: #212121;
   --thm-text: #686a6f;
   --thm-font: "Teko", sans-serif;
@@ -260,4 +261,334 @@ p {
   .call-to-section h2 {
     font-size: 40px;
   }
+}
+
+
+/* services  */
+section.section.servicesz {
+  padding-block: 143px;
+}
+
+.servicesz .banner-inner {
+  position: relative;
+  display: block;
+  text-align: center;
+  z-index: 3;
+}
+
+.servicesz .image-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.servicesz h1 {
+  position: relative;
+  font-size: 100px;
+  color: #ffffff;
+  line-height: 0.9em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.servicesz .page-nav {
+  position: relative;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.servicesz .bread-crumb {
+  position: relative;
+  display: inline-block;
+}
+
+.servicesz .bread-crumb li a:hover,
+.servicesz .bread-crumb li.active {
+  color: var(--primary);
+}
+
+.servicesz .bread-crumb li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.servicesz .bread-crumb li {
+  position: relative;
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ccd6df;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: default;
+  padding-right: 15px;
+  margin-right: 15px;
+  letter-spacing: 0.1em;
+  font-family: var(--thm-font);
+}
+
+.servicesz {
+  position: relative;
+  padding: 0;
+  color: #ffffff;
+  background: var(--thm-black);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.servicesz .bread-crumb li a {
+  color: #ffffff;
+  font-weight: 400;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.servicesz .shape-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 250px;
+  max-width: 100%;
+  height: 100%;
+  background: url(../public/Assets/b-shape-1.png) right bottom no-repeat;
+  z-index: 1;
+}
+
+.servicesz .shape-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 250px;
+  max-width: 100%;
+  height: 100%;
+  background: url(../public/Assets/b-shape-2.png) right top no-repeat;
+  z-index: 1;
+}
+
+.sidebar-widget .widget-inner {
+  position: relative;
+  display: block;
+  padding: 45px 45px;
+  background: #f4f5f8;
+  border-radius: 7px;
+}
+
+.sidebar-title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.sidebar .services ul {
+  position: relative;
+}
+
+.services ul li {
+  position: relative;
+  line-height: 48px;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--thm-text);
+  margin-bottom: 5px;
+}
+
+.sidebar .services ul li:hover:before,
+.sidebar .services ul li.active:before,
+.sidebar .services ul li:hover:after,
+.sidebar .services ul li.active:after {
+  opacity: 1;
+}
+
+.sidebar .sidebar-widget {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.sidebar .sidebar-widget:last-child {
+  margin-bottom: 0px;
+}
+
+.sidebar .sidebar-widget {
+  position: relative;
+  display: block;
+  margin-bottom: 30px;
+}
+
+.sidebar .call-up .widget-inner {
+  /* background: var(--thm-black) !important; */
+  color: #999b9f;
+}
+
+.sidebar .services ul li:after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: -12px;
+  height: 24px;
+  border-left: 2px solid var(--primary);
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.sidebar .services ul li:before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  right: -20px;
+  bottom: 0;
+  background: #ffffff;
+  border-radius: 7px;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.sidebar .services ul li a {
+  position: relative;
+  display: block;
+  line-height: 48px;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--dark);
+  font-family: var(--thm-b-font);
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.sidebar .services ul li a:after {
+  position: absolute;
+  right: 0;
+  top: -1px;
+  font-family: "Flaticon";
+  content: "\f15f";
+  opacity: 1;
+  font-size: 10px;
+  line-height: 48px;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.sidebar .call-up .widget-inner {
+  background: var(--thm-black);
+  color: #999b9f;
+}
+
+.sidebar .sidebar-widget .widget-inner {
+  position: relative;
+  display: block;
+  padding: 45px 45px;
+  background: #f4f5f8;
+  border-radius: 7px;
+}
+
+.sidebar .call-up .phone a {
+  position: relative;
+  /* color: #ffffff; */
+}
+
+.sidebar .call-up .phone {
+  position: relative;
+  margin-top: 20px;
+  /* color: #ffffff; */
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--thm-font);
+  font-weight: 300;
+}
+
+.sidebar .call-up .phone .icon {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  color: var(--primary);
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+.sidebar .call-up .sidebar-title h4 {
+  /* color: #ffffff; */
+}
+
+.service-details .image img {
+  display: block;
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 7px;
+  transition: all 0.4s ease;
+}
+
+.service-details .image img:hover {
+  filter: grayscale(0%);
+}
+
+.service-details .main-image {
+  margin-bottom: 35px;
+}
+
+.service-details .image {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.service-details .text-content ul li:before {
+  content: "\f131";
+  font-family: "Flaticon";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  color: var(--primary);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.service-details h4 {
+  font-size: 36px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+
+.service-details .text-content p {
+  margin-bottom: 35px;
+}
+
+.service-details .text-content ul {
+  margin-bottom: 20px;
+}
+
+.service-details .text-content ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 2.125em;
+  margin: 0 0 20px;
+}
+
+.service-details .featured .image-col {
+  margin-bottom: 30px;
 }
