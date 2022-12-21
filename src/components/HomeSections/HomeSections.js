@@ -37,6 +37,71 @@ export const HomeSections = () => {
                     </div>
                 </div>
             </section>
+            <section className="services section">
+                <div className="container">
+                    <div className="sec-title">
+
+                        <div className="row">
+                            <div className="head col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                <h2 className='heading'>Our Key Values<span
+                                    className="dot">.</span></h2>
+                            </div>
+                            <div className="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+                                <p className="para">
+                                    Core values are critical if you want to create a long-lasting, successful,
+                                    and motivating place to work.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="services">
+                        <div className="row">
+                            <div className="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInUp animated" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="bottom-curve"></div>
+                                    <div className="icon-box"><span className="flaticon-vector"></span></div>
+                                    <h5><a href="#">Sincerity</a></h5>
+                                    <div className="text">
+                                        Quality deliverance of work and sincerity to clients and organization
+                                    </div>
+                                    <div className="link-box"><a href="#"><span
+                                        className="fa fa-angle-right"></span></a></div>
+                                </div>
+                            </div>
+
+
+                            <div className="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInUp animated">
+                                    <div className="bottom-curve"></div>
+                                    <div className="icon-box"><span className="flaticon-digital"></span></div>
+                                    <h5><a href="#">Dedication</a></h5>
+                                    <div className="text">
+                                        Ethical Values towards both the team members and clients, no matter what
+                                    </div>
+                                    <div className="link-box"><a href="#"><span
+                                        className="fa fa-angle-right"></span></a></div>
+                                </div>
+                            </div>
+
+
+                            <div className="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                <div className="inner-box wow fadeInUp animated" data-wow-delay="600ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="bottom-curve"></div>
+                                    <div className="icon-box"><span className="flaticon-instant-camera"></span></div>
+                                    <h5><a href="#">Results</a></h5>
+                                    <div className="text">Timely deliverance of work according to the clients need. </div>
+                                    <div className="link-box"><a href="#"><span
+                                        className="fa fa-angle-right"></span></a></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="section position-relative overflow-hidden pb-5 services">
                 <div className="container">
                     <div className="row">
@@ -126,6 +191,7 @@ export const HomeSections = () => {
                     </div>
                 </div>
             </section>
+
             <section class="section jarallax">
                 <div class="container">
                     <div class="content-box">
@@ -133,11 +199,13 @@ export const HomeSections = () => {
 
                             <div class="row">
                                 <div class="head col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-3">
-                                    <h2 className='heading'>Change us for your custom software development<span class="dot">.</span></h2>
+                                    <h2 className='heading'>
+                                        Choose Us For Your Custom
+                                        Software Development<span class="dot">.</span></h2>
                                 </div>
                                 <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-4">
-                                    <p class="para">There are many variations of passages of Lorem Ipsum available, but
-                                        the majority have suffered alteration in some form, by injected humour, or randomised.
+                                    <p class="para">
+                                        We develop individualized software solutions, which is unique and beyond the standard approach, to meet client’s specific needs.
                                     </p>
                                 </div>
                             </div>
