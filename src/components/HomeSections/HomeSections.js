@@ -199,7 +199,7 @@ export const HomeSections = () => {
 
                             <div class="row">
                                 <div class="head col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-3">
-                                    <h2 className='heading'>
+                                    <h2 className='heading text-white'>
                                         Choose Us For Your Custom
                                         Software Development<span class="dot">.</span></h2>
                                 </div>

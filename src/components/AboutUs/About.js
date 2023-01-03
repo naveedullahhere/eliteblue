@@ -46,7 +46,7 @@ export const About = () => {
                   <h4 className='heading-sm'>About</h4>
                   <h2 className='heading'>Who we are<span className="dot">.</span></h2>
                   <p className="para">we design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwid ewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwide</p>
-                  <Button link="" text="Read more" type="light" />
+                  {/* <Button link="" text="Read more" type="light" /> */}
                 </div>
               </div>
             </div>

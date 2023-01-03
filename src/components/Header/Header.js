@@ -94,11 +94,11 @@ export const Header = () => {
                                 <li className="dropdown">
                                     <a>Services<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></a>
                                     <ul>
-                                        <li><Link to="">Creative Branding &amp; Design</Link></li>
-                                        <li><Link to="">Web Development</Link></li>
-                                        <li><Link to="">Ecommerce Software Development</Link></li>
-                                        <li><Link to="">Digital Marketing - SEO, PPC, SMM</Link></li>
-                                        <li><Link to="">Mobile Application Development</Link></li>
+                                        <li><Link to="branding-and-design">Creative Branding &amp; Design</Link></li>
+                                        <li><Link to="web-development">Web Development</Link></li>
+                                        <li><Link to="ecommerce-development">Ecommerce Software Development</Link></li>
+                                        <li><Link to="digital-marketing">Digital Marketing - SEO, PPC, SMM</Link></li>
+                                        <li><Link to="android-development">Mobile Application Development</Link></li>
                                     </ul>
                                 </li>
                                 <li>
