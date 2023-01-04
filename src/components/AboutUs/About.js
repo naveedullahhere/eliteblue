@@ -3,6 +3,7 @@ import './About.css';
 import { motion } from 'framer-motion';
 import { Button } from '../Button/Button';
 import { HomeForm } from '../Forms/HomeForm';
+import { Team } from '../Team/Team';
 import AboutImg from '../Assets/About/home.png';
 import WhoWeAre from '../Assets/About/who-we-are.png';
 import AboutSec from '../Assets/About/sec-2-vector.png';
@@ -133,6 +134,8 @@ export const About = () => {
           </div>
         </div>
       </section>
+      <Team/>
     </motion.div>
+   
   )
 }

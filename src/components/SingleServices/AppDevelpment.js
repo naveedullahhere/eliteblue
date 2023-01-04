@@ -43,7 +43,7 @@ export const AppDevelpment = () => {
                                     <h2 className='heading heading-h'>Digital Auxilius – Helping global brands introduce superior digital products<span className="dot">.</span></h2>
                                     <p className='para'>
                                         We understand how crucial it is for businesses to keep at pace with the ever-changing consumer behavior. Modern technology is constantly evolving and is also playing its part to influence how people shop and satisfy their needs. Today, people expect services/goods to be as accessible as if at their fingertips – a phenomenon that gave birth to mobile app development.</p>
-                                    <p className="para">
+                                    <p className="para " >
                                         Using an agile development methodology, Digital Auxilius churns android app development and iOS app development for businesses of all scales. We aim to create solutions that not only meet the user’s needs but also cater to the business industry and its vertical needs. We offer a versatile engagement model that begins with a detailed assessment of your business and IT requirements to deliver a mobile app design that allows quick and cost-effective solutions.</p>
                                 </div>
                             </div>
