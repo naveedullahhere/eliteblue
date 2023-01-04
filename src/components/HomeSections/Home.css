@@ -8,11 +8,11 @@
 .heading {
     position: relative;
     display: block;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 0.9em;
     text-transform: uppercase;
     color: var(--thm-black);
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 0px;
 }
 
