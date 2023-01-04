@@ -29,7 +29,7 @@ export const WebDevelopment = () => {
                                     <h4 className='heading-sm text-white'>Services</h4>
                                     <h2 className='heading text-white'>
                                         Get Unique, End to End & Full Stack Website Development<span className="dot">.</span></h2>
-                                    <Button text="get a quote" link="" type="light" />
+                                    {/* <Button text="get a quote" link="" type="light" /> */}
 
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ export const WebDevelopment = () => {
                                     <div className="col-12">
                                         <div className="bottom-curve"></div>
                                     </div>
-                                    <div className="col-12 mb-5">
+                                    <div className="col-12 my-3 mb-5">
                                         <img src={sr1} alt="Services" className='ServicesImg  ' draggable="false" />
                                     </div>
                                     <div className="col-12 my-auto">
@@ -130,7 +130,7 @@ export const WebDevelopment = () => {
                                     <div className="col-12">
                                         <div className="bottom-curve"></div>
                                     </div>
-                                    <div className="col-12 mb-5">
+                                    <div className="col-12 my-3 mb-5">
                                         <img src={sr2} alt="Services" className='ServicesImg  ' draggable="false" />
                                     </div>
                                     <div className="col-12 my-auto">
@@ -155,7 +155,7 @@ export const WebDevelopment = () => {
                                     <div className="col-12">
                                         <div className="bottom-curve"></div>
                                     </div>
-                                    <div className="col-12 mb-5">
+                                    <div className="col-12 my-3 mb-5">
                                         <img src={sr3} alt="Services" className='ServicesImg  ' draggable="false" />
                                     </div>
                                     <div className="col-12 my-auto">

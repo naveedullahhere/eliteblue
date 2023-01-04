@@ -37,11 +37,11 @@ export const HomeSections = () => {
                     </div>
                 </div>
             </section>
-            <section className="services section">
+            <section className="services section section-h">
                 <div className="container">
                     <div className="sec-title">
 
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="head col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className='heading'>Our Key Values<span
                                     className="dot">.</span></h2>
@@ -52,9 +52,28 @@ export const HomeSections = () => {
                                     and motivating place to work.
                                 </p>
                             </div>
+                        </div> */}
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <h1 className='heading heading-h'>
+                                    <span> Digital Agency Solutions </span> Tailor-Made for your Business.
+                                </h1>
+                            </div>
+                            <div className="col-lg-6">
+                                <p className='para'>
+                                The key to being a brand that not only makes a good impression, but also refuses to evaporate from the ever-volatile industry, is partnering with a high performing digital agency. Digital Auxilius – as a Creative Agency we honor our name and remain staunch supporters of our clients through high yielding digital solutions within the everchanging market.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12">
+                            <p className='para'>
+                            Our seasoned professionals are hard at work, day in and day out, looking for, designing, and developing the most efficient digital marketing solutions that would boost our clients’ sales and help them win over their customers. We are constantly refining our services to keep going with the industry’s changing nature, and make sure that our clients remain updated as well. We invest heavily in research and development, and consistently conduct analysis of the industry to make sure we are growing in the right direction. However, it is not only quality digital solutions that we are after, but also cultivating customer relations that we hone in on. Our theory is that the foundation of any long-lasting relationship between a brand and its customers starts from comfort. This is cultivated through well researched digital solutions, and customer services such as website maintenance, updates, and any other assistance a customer can ask for.
+                            </p>
+                            </div>
                         </div>
                     </div>
-                    <div className="services">
+                    {/* <div className="services">
                         <div className="row">
                             <div className="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
                                 <div className="inner-box wow fadeInUp animated" data-wow-delay="0ms"
@@ -99,10 +118,11 @@ export const HomeSections = () => {
 
 
                         </div>
-                    </div>
+                        
+                    </div> */}
                 </div>
             </section>
-            <section className="section position-relative overflow-hidden pb-5 services">
+            <section className="section my-1 position-relative overflow-hidden pb-5 services">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 shape-circle">

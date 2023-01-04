@@ -66,7 +66,7 @@
  .main-header .header-upper .logo-box {
      position: relative;
      float: left;
-     padding: 40px 0px;
+     padding: 27px 0px;
      margin-right: 50px;
      z-index: 7;
  }
@@ -93,7 +93,7 @@
  .main-header .other-links .link-box {
      position: relative;
      float: left;
-     padding: 24px 0px;
+     padding: 17px 0px;
  }
 
  .main-header .other-links .link-box .link {
@@ -209,7 +209,7 @@
  .main-menu .navigation>li {
      position: relative;
      float: left;
-     padding: 31px 0px;
+     padding: 17px 0px;
      margin-right: 40px;
      transition: all 300ms ease;
  }
@@ -847,11 +847,11 @@ cursor: pointer;
 
 
  .main-header .header-upper {
-     height: 116px; 
+     height: 88px; 
  }
 
  .bluredHeader {
-     height: calc(100vh - 117px);
+     height: calc(100vh - 88px);
  }
 
  @media (max-width: 480px) {

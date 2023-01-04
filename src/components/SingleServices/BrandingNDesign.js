@@ -109,7 +109,7 @@ export const BrandingNDesign = () => {
                     </div> */}
                     <div className="row ">
                         <div className="col-lg-6 col-12 my-auto">
-                            <h2 className="heading  mb-3" style={{ fontSize: '50px' }}>
+                            <h2 className="heading heading-h mb-3">
                                 Our UI UX Designer Creates Digital Visitor Journeys that Activates <br /> <span style={{ color: '#16539e' }}> Lead Conversions and Customer Relationships </span>
                             </h2>
                         </div>
@@ -157,15 +157,15 @@ export const BrandingNDesign = () => {
                             <h2 className='heading heading-2 my-3'>Logo Design<span className="dot">.</span></h2>
                             <p className="para">The face of your company should be easy to recognize and impossible to forget. We can design such a logo that is unique to your business identity and will get imprinted the memories of your targeted audience as it appears in their range of view.</p>
                             <p className='para'>
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Clear, simple, and relevant <br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Impactful design that tells your story <br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Compatible on web and print materials</p>
@@ -188,15 +188,15 @@ export const BrandingNDesign = () => {
                             <h3 className='heading heading-2 my-3'>Flyer / Brochure Design<span className="dot">.</span></h3>
                             <p className="para">Your marketing strategy will definitely need to use print media for spreading your brand awareness. We can design effective banners, flyers, and brochures to share them with your targeted audience. Our specially designed print media will ensure that your marketing goals are effectively achieved.</p>
                             <p className='para'>
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Strategic Design according to Business <br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Crisp Reading Flow <br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Simple Yet Effective Content</p>
@@ -213,15 +213,15 @@ export const BrandingNDesign = () => {
                             <h2 className='heading heading-2 my-3'>Business Card Design<span className="dot">.</span></h2>
                             <p className="para">Your business cards are the very first impressions of your business. The card must show off professionalism and creativity. It must be easy to read, unique to be memorable, and yet effective in proving your worth. We will help you make your first impression the best one.</p>
                             <p className='para'>
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Professional And Creative Design <br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Easy To Read And Understand<br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Unique And Customized To Brand Identity</p>
@@ -244,15 +244,15 @@ export const BrandingNDesign = () => {
                             <h3 className='heading heading-2 my-3'>Animation And Illustrations<span className="dot">.</span></h3>
                             <p className="para">Video is a very effective form of marketing but animated videos have been proven via research that they have a higher rate of success. That is what we focus on because we want our customers to leave satisfied and get the right service for their goals.</p>
                             <p className='para'>
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Animated and Motion Graphics <br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Explainer Videos <br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 3D And 2D Animation</p>
@@ -269,15 +269,15 @@ export const BrandingNDesign = () => {
                             <h2 className='heading heading-2 my-3'>Product Packaging<span className="dot">.</span></h2>
                             <p className="para">We have designed packaging for many products that are known worldwide right now. Our designs are specialized for effectiveness and are attention-grabbing. The designs we make are unique to brand identity as well as easy to memorize. Once your customers see your product, they will never forget it.</p>
                             <p className='para'>
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Designs For Multiple Sizes<br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 From Pouches To Packets <br />
-                                <svg className='me-2' width="20" height="20" fill="none" stroke="blue" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <svg className='me-2' width="20" height="20" fill="none" stroke="#16539e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="m4 12 6 6L20 6"></path>
                                 </svg>
                                 Memorable And Unforgettable</p>
