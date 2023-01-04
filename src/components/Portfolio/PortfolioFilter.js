@@ -46,7 +46,7 @@ export const PortfolioFilter = ({ activeFilter, setActiveFilter, setFiltered, al
         <div className="filters">
             <ul className='filter-tabs filter-btns'>
                 {links.map((link) => {
-                    return <li class={`filter ${active == link.link && 'active'}`} onClick={() => handleFilter(link)}>{link.link}</li>
+                    return <li class={`filter ${active == link.link && 'active'} filtertabs`} onClick={() => handleFilter(link)}>{link.link}</li>
                 })}
             </ul>
         </div>

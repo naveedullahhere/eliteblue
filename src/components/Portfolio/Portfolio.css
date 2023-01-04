@@ -68,3 +68,9 @@
     transition: all 300ms ease;
     font-family: var(--thm-font);
 }
+
+.filtertabs {
+
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}

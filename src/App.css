@@ -804,7 +804,7 @@ p {
 }
 
 .text-main {
-  color: var(--primary)!important;
+  color: var(--primary) !important;
 }
 
 .heading-m-h span {
@@ -895,4 +895,15 @@ p {
 
 .card-h-3 p {
   color: white !important;
+}
+
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1220px !important;
+  }
 }

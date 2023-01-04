@@ -48,7 +48,7 @@ export const AppDevelpment = () => {
                     </div>
                 </div>
             </section>
-            <section className="section bg-radial">
+            <section className="section ">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4 p-4">

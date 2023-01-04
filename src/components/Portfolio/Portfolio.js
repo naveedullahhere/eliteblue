@@ -36,7 +36,7 @@ export const Portfolio = () => {
     const [img, setImg] = useState(null);
 
     useEffect(() => {
-        fetch(`https://www.mediachapter.us/e-panel/api/portfolio`)
+        fetch(`https://eliteblue.net/e-panel/api/portfolio`)
             .then((response) => response.json())
             .then((actualData) => { setFiltered(actualData.data); setfltr(actualData.data); setImg(actualData.media_path) })
             .catch((err) => {

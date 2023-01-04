@@ -8,7 +8,7 @@ import { ContactForm } from './ContactForm';
 export const Contact = () => {
     return (
         <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} exit={{ transition: { duration: 0.3 }, opacity: 0, x: 100 }}>
-            <section className="section about-section position-relative overflow-hidden w-100 contact-instruction py-0 text-center">
+            {/* <section className="section about-section position-relative overflow-hidden w-100 contact-instruction py-0 text-center">
                 <div className="container">
                     <div className="circle"></div>
                     <div className="circle circle-1"></div>
@@ -25,7 +25,7 @@ export const Contact = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="section contact main__form">
                 <div className="container">
                     <div className="row">
