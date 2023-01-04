@@ -40,7 +40,7 @@ export const AppDevelpment = () => {
                         </div>
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
-                                <div className="head py-2">
+                                <div className="head py-2 mb-auto">
                                     <p className="para">We at Digital Auxilius provide scalable digital marketing solutions that can be metamorphosed according to different target demographics. Living up to our name, we are the digital auxiliary that helps our clients develop an online footprint so strong it remains undeterred in the face of adversity. DAX helps businesses acquire quality leads through information-dense marketing that directly influences their target market. With us you get a digital marketing consultant that turns visitors into loyal customers.</p>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@ export const AppDevelpment = () => {
                         </div>
                         <div className="col-lg-6 col-12 p-5 my-auto">
                             <div className="inner">
-                                <div className="head py-2">
+                                <div className="head py-2 mb-auto">
                                     <h2 className='heading heading-h'>Digital Auxilius – Helping global brands introduce superior digital products<span className="dot">.</span></h2>
                                     <p className='para'>
                                         We understand how crucial it is for businesses to keep at pace with the ever-changing consumer behavior. Modern technology is constantly evolving and is also playing its part to influence how people shop and satisfy their needs. Today, people expect services/goods to be as accessible as if at their fingertips – a phenomenon that gave birth to mobile app development.</p>
@@ -133,7 +133,7 @@ export const AppDevelpment = () => {
                         </div>
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
-                                <div className="head py-2">
+                                <div className="head py-2 mb-auto">
                                     {/* <h4 className='heading-sm'>About</h4> */}
                                     {/* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> */}
                                     <p className="para">The past decade witnessed a surge in the world’s inclination towards mobile applications. With the sales of smartphones surpassing 3 billion mark, the rise in the need and demand for mobile app development was inevitable. While the consumer enjoyed a more reliable, personalized, and convenient approach, businesses reveled in increased ROI and brand promotion. Hence, today, businesses and firms are keen to incorporate such applications into their digital existence.</p>
@@ -149,7 +149,7 @@ export const AppDevelpment = () => {
                     <div className="row ">
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
-                                <div className="head py-2">
+                                <div className="head py-2 mb-auto">
                                     {/* <h4 className='heading-sm'>About</h4> */}
                                     {/* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> */}
                                     <p className="para">We live in a world where mobile usage has increased tremendously due to the smartphone era that we are living in, and more than that, mobile applications have taken over the world with more and more advancements, and now you have an app for literally every service, every business, and every other basic necessity.</p>
@@ -159,6 +159,104 @@ export const AppDevelpment = () => {
                         </div>
                         <div className="col-lg-6 col-12 my-auto">
                             <img src={c2} alt="About" draggable="false" className='aboutimg w-100' />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section py-5">
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-lg-6 col-12 my-auto">
+                            <h3 className="heading fs-3">
+                                Our projects are beholden to an intricately designed software development process customized according to client requirements
+                            </h3>
+                        </div>
+                        <div className="col-lg-6 col-12 my-auto">
+                            <div className="inner">
+                                <div className="head py-2 mb-auto">
+                                    <p className="para">Our software development team constantly switches up the process through trial and error. They are always on the look out to find better and more efficient ways to evolve the system to help our clients meet their objectives.
+                                        <br />
+                                        <br />
+                                        Here is an overview of what you would get by partnering with EliteBlue Technologies:</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mt-md-4 mt-3">
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>1</h3>
+                                <p className="para">
+                                    Get on board with us
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>2</h3>
+                                <p className="para">
+                                    Discuss your idea
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>3</h3>
+                                <p className="para">
+                                    We will create Prototype
+
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>4</h3>
+                                <p className="para">
+                                    Choose Technology
+
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>5</h3>
+                                <p className="para">
+                                    UI Design Phase
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>6</h3>
+                                <p className="para">
+                                    Development Phase
+
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>7</h3>
+                                <p className="para">
+                                    QA Cycle
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>8</h3>
+                                <p className="para">
+                                    Deployment
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

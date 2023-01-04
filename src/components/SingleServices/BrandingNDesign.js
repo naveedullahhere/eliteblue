@@ -104,7 +104,7 @@ export const BrandingNDesign = () => {
                         </div>
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
-                                <div className="head py-2">
+                                <div className="head py-2 mb-auto">
                                     {/* <h4 className='heading-sm'>About</h4> */}
                                     {/* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> */}
                                     <p className="para">Our UI UX design has physical, ergonomic, and cognitive sciences infused within every corner of your website’s canvas. Our UI UX designer believes in creating websites that give visitors control. We not only craft user interfaces that are easy to navigate, but we also ensure reduced user cognitive load. Through needs anticipation, reversible actions, purchase statuses, minimal task completion actions, and page sections visitors can enjoy quality shopping experiences.
@@ -389,7 +389,85 @@ export const BrandingNDesign = () => {
                 </div>
             </section> */}
             <br />
-            <section className="section pt-0">
+            <section className="section py-5">
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-lg-6 col-12 my-auto">
+                            <h3 className="heading fs-3">
+
+                                We relish our collection of cutting-edge graphic design services that are performed by our competitive professionals. </h3>
+                        </div>
+                        <div className="col-lg-6 col-12 my-auto">
+                            <div className="inner">
+                                <div className="head py-2 mb-auto">
+                                    <p className="para">Our proficient team of graphic designers have relentlessly worked to contribute to our graphic design portfolio. We begin with hearing what you aim for and end with delivering results that exceed expectations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mt-md-4 mt-3">
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>1</h3>
+                                <p className="para">
+                                    Get on board with us
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>2</h3>
+                                <p className="para">
+                                    Brief us of your vision
+
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>4</h3>
+                                <p className="para">
+                                    Brainstorming for ideas
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>5</h3>
+                                <p className="para">
+                                    Sketching designs
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>6</h3>
+                                <p className="para">
+
+
+                                    Design approval
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>7</h3>
+                                <p className="para">
+                                    Publish product
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

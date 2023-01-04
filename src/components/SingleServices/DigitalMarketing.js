@@ -40,7 +40,7 @@ export const DigitalMarketing = () => {
                         </div>
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
-                                <div className="head py-2">
+                                <div className="head py-2 mb-auto">
                                     <p className="para">We at Digital Auxilius provide scalable digital marketing solutions that can be metamorphosed according to different target demographics. Living up to our name, we are the digital auxiliary that helps our clients develop an online footprint so strong it remains undeterred in the face of adversity. DAX helps businesses acquire quality leads through information-dense marketing that directly influences their target market. With us you get a digital marketing consultant that turns visitors into loyal customers.</p>
                                 </div>
                             </div>
@@ -137,7 +137,105 @@ export const DigitalMarketing = () => {
                     </div>
                 </div>
             </section><br />
-            <section className="section pt-0">
+            <section className="section py-5">
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-lg-6 col-12 my-auto">
+                            <h3 className="heading fs-3">
+                                Our projects are beholden to an intricately designed software development process customized according to client requirements
+                            </h3>
+                        </div>
+                        <div className="col-lg-6 col-12 my-auto">
+                            <div className="inner">
+                                <div className="head py-2 mb-auto">
+                                    <p className="para">Our software development team constantly switches up the process through trial and error. They are always on the look out to find better and more efficient ways to evolve the system to help our clients meet their objectives.
+                                        <br />
+                                        <br />
+                                        Here is an overview of what you would get by partnering with EliteBlue Technologies:</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mt-md-4 mt-3">
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>1</h3>
+                                <p className="para">
+                                    Get on board with us
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>2</h3>
+                                <p className="para">
+                                    Discuss your idea
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>3</h3>
+                                <p className="para">
+                                    We will create Prototype
+
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>4</h3>
+                                <p className="para">
+                                    Choose Technology
+
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>5</h3>
+                                <p className="para">
+                                    UI Design Phase
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>6</h3>
+                                <p className="para">
+                                    Development Phase
+
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>7</h3>
+                                <p className="para">
+                                    QA Cycle
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>8</h3>
+                                <p className="para">
+                                    Deployment
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="section">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">

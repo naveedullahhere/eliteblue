@@ -213,7 +213,85 @@ export const WebDevelopment = () => {
                 </div>
 
             </section>
+            <section className="section py-5">
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-lg-6 col-12 my-auto">
+                            <h3 className="heading fs-3">
+                                We have a collection of high-quality web development services that will be performed by our incredibly competent professionals.   </h3>
+                        </div>
+                        <div className="col-lg-6 col-12 my-auto">
+                            <div className="inner">
+                                <div className="head py-2 mb-auto">
+                                    <p className="para">Our web design and development services not only ensure eradication of issues that might hold your product back, but we also make certain that we can design your product in a way that customers coming back again and again.<br />
+                                        <br />
+                                        Here is a quick overview of what you can expect when working with us:
 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mt-md-4 mt-3">
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>1</h3>
+                                <p className="para">
+                                    Get on board with us
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>2</h3>
+                                <p className="para">
+                                    Discuss your idea
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>4</h3>
+                                <p className="para">
+                                    Choose product type
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>5</h3>
+                                <p className="para">
+                                    Craft the design
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>6</h3>
+                                <p className="para">
+
+
+                                    Develop the product
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-lg-2 col-md-3 col-4 my-3">
+                            <div className="sec text-center">
+
+                                <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>7</h3>
+                                <p className="para">
+                                    Market it to the public
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="section">
                 <div className="container">
                     <div className="row">
