@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import PortfolioItem from '../Portfolio.json';
 import './Portfolio.css';
 import { PortfolioItems } from './PortfolioItems';
 import { PortfolioFilter } from './PortfolioFilter';
+import { toast } from 'react-hot-toast';
 
 
 
@@ -25,6 +26,40 @@ export const Portfolio = () => {
         // }
     }
 
+
+
+    const [filtered, setFiltered] = useState([]);
+    const [activeFilter, setActiveFilter] = useState("all");
+    const [fltr, setfltr] = useState([]);
+
+
+    const [img, setImg] = useState(null);
+
+    useEffect(() => {
+        fetch(`https://www.mediachapter.us/e-panel/api/portfolio`)
+            .then((response) => response.json())
+            .then((actualData) => { setFiltered(actualData.data); setfltr(actualData.data); setImg(actualData.media_path) })
+            .catch((err) => {
+                setFiltered([]);
+                toast.error("Something went wrong!");
+            });
+    }, []);
+
+
+
+    let filteredItm = fltr.map((item) => {
+        return item.category
+    })
+
+
+    var tempData = [];
+    // console.log([...new Set(filteredItmFilter.flat())].length);
+    for (var index = 0; index < [...new Set(filteredItm.flat())].length; index++) {
+        var aa = { "link": `${[...new Set(filteredItm.flat())][index]}` };
+        tempData.push(aa);
+    }
+
+
     return (
         <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} exit={{ transition: { duration: 0.3 }, opacity: 0, x: 100 }}>
             <section className="section pt-0 portfolio">
@@ -42,8 +77,15 @@ export const Portfolio = () => {
                     <section className="gallery-section">
                         <div className="auto-container">
                             <div className="mixitup-gallery">
-                                <PortfolioFilter filterItems={filterItems} />
-                                <PortfolioItems PortfolioItem={items} />
+                                <PortfolioFilter filterItems={filterItems}
+                                    all={fltr}
+                                    setFiltered={setFiltered}
+                                    activeFilter={activeFilter}
+                                    setActiveFilter={setActiveFilter}
+                                    filtered={filtered}
+                                    tempData={tempData}
+                                />
+                                <PortfolioItems PortfolioItem={filtered} img={img} />
                             </div>
                         </div>
                     </section>

@@ -8,11 +8,11 @@
 .heading {
     position: relative;
     display: block;
-    font-size: 70px;
-    line-height: 0.9em;
-    text-transform: uppercase;
+    font-size: 52px;
+    line-height: 1.2;
+    text-transform: capitalize;
     color: var(--thm-black);
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 0px;
 }
 
@@ -26,7 +26,7 @@ p.para {
     position: relative;
     display: block;
     font-size: 16px;
-    line-height: 2.125em;
+    line-height: 1.7;
     font-weight: 400;
     color: var(--thm-text);
     padding: 14px 0px 0px;
@@ -256,6 +256,7 @@ figure {
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 5%);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+    height: 100%;
 }
 
 .servicez {
@@ -341,7 +342,7 @@ figure {
     position: relative;
     display: block;
     color: var(--thm-text);
-    padding: 30px 0px 0px;
+    padding: 12px 0px 0px;
     z-index: 1;
 }
  

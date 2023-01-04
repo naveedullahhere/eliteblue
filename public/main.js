@@ -43,7 +43,7 @@ $(document).ready(function () {
 
     if ($(".side-menu__block").length) {
         $(".mobile-nav__container").find("li.dropdown a").on("click", function (e) {
-            e.preventDefault();
+            // e.preventDefault();
             $(this).toggleClass("open");
             $(this).parent("li").children("ul").slideToggle(500);
         });

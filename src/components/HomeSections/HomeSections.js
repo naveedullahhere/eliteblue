@@ -25,7 +25,7 @@ export const HomeSections = () => {
                             <div className="inner">
                                 <div className="head">
                                     <h4 className='heading-sm'>About</h4>
-                                    <h2 className='heading'>we do desgn, code & develipment<span className="dot">.</span></h2>
+                                    <h2 className='heading'>we do design, code & development<span className="dot">.</span></h2>
                                     <p className="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>
                                 </div>
                             </div>
@@ -37,11 +37,11 @@ export const HomeSections = () => {
                     </div>
                 </div>
             </section>
-            <section className="services section">
+            <section className="services section pb-0">
                 <div className="container">
                     <div className="sec-title">
 
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="head col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className='heading'>Our Key Values<span
                                     className="dot">.</span></h2>
@@ -52,9 +52,28 @@ export const HomeSections = () => {
                                     and motivating place to work.
                                 </p>
                             </div>
+                        </div> */}
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <h1 className='heading heading-h'>
+                                    <span> Digital Agency Solutions </span> Tailor-Made for your Business.
+                                </h1>
+                            </div>
+                            <div className="col-lg-6">
+                                <p className='para'>
+                                    The key to being a brand that not only makes a good impression, but also refuses to evaporate from the ever-volatile industry, is partnering with a high performing digital agency. Digital Auxilius – as a Creative Agency we honor our name and remain staunch supporters of our clients through high yielding digital solutions within the everchanging market.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12">
+                                <p className='para'>
+                                    Our seasoned professionals are hard at work, day in and day out, looking for, designing, and developing the most efficient digital marketing solutions that would boost our clients’ sales and help them win over their customers. We are constantly refining our services to keep going with the industry’s changing nature, and make sure that our clients remain updated as well. We invest heavily in research and development, and consistently conduct analysis of the industry to make sure we are growing in the right direction. However, it is not only quality digital solutions that we are after, but also cultivating customer relations that we hone in on. Our theory is that the foundation of any long-lasting relationship between a brand and its customers starts from comfort. This is cultivated through well researched digital solutions, and customer services such as website maintenance, updates, and any other assistance a customer can ask for.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div className="services">
+                    {/* <div className="services">
                         <div className="row">
                             <div className="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
                                 <div className="inner-box wow fadeInUp animated" data-wow-delay="0ms"
@@ -99,10 +118,11 @@ export const HomeSections = () => {
 
 
                         </div>
-                    </div>
+                        
+                    </div> */}
                 </div>
             </section>
-            <section className="section position-relative overflow-hidden pb-5 services">
+            <section className="section my-1 position-relative overflow-hidden pb-5 services">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 shape-circle">
@@ -130,59 +150,51 @@ export const HomeSections = () => {
             </section>
             <section class="services section">
                 <div class="container">
-                    <div class="sec-title">
+                    <div class="sec-title mb-md-5 mb-3">
                         <div class="row">
                             <div class="head col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                <h2 className='heading'>Lorem ipsum is are many <br />together<span class="dot">.</span></h2>
+                                <h2 className='heading'>Our Key Values<span class="dot">.</span></h2>
                             </div>
                             <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                                <p class="para">There are many variations of passages of Lorem Ipsum available, but
-                                    the majority have suffered alteration in some form, by injected humour, or randomised.
+                                <p class="para">Core values are critical if you want to create a long-lasting, successful,
+                                    and motivating place to work.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="services">
                         <div class="row">
-                            <div class="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="servicez col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     <div class="bottom-curve"></div>
                                     <div class="icon-box"><span class="flaticon-vector"></span></div>
                                     <h5><a href="#">Sincerity</a></h5>
-                                    <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                    <div class="text">Quality deliverance of work and sincerity to clients and organization
+                                    </div>
                                     <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                                 </div>
                             </div>
 
 
-                            <div class="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="servicez col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box wow fadeInUp animated" >
                                     <div class="bottom-curve"></div>
                                     <div class="icon-box"><span class="flaticon-digital"></span></div>
                                     <h5><a href="#">Dedication</a></h5>
-                                    <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                    <div class="text">Ethical Values towards both the team members and clients, no matter what
+
+                                    </div>
                                     <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                                 </div>
                             </div>
 
 
-                            <div class="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                            <div class="servicez col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                 <div class="inner-box wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms" >
                                     <div class="bottom-curve"></div>
                                     <div class="icon-box"><span class="flaticon-instant-camera"></span></div>
                                     <h5><a href="#">Results</a></h5>
-                                    <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
-                                    <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
-                                </div>
-                            </div>
-
-
-                            <div class="servicez col-xl-3 col-lg-6 col-md-6 col-sm-12">
-                                <div class="inner-box wow fadeInUp animated" data-wow-delay="900ms">
-                                    <div class="bottom-curve"></div>
-                                    <div class="icon-box"><span class="flaticon-monitor"></span></div>
-                                    <h5><a href="#">Development</a></h5>
-                                    <div class="text">Lorem ipsum is are many variations of pass of majority.</div>
+                                    <div class="text">Timely deliverance of work according to the clients need.</div>
                                     <div class="link-box"><a href="#"><span class="fa fa-angle-right"></span></a></div>
                                 </div>
                             </div>
@@ -199,7 +211,7 @@ export const HomeSections = () => {
 
                             <div class="row">
                                 <div class="head col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-3">
-                                    <h2 className='heading'>
+                                    <h2 className='heading text-white'>
                                         Choose Us For Your Custom
                                         Software Development<span class="dot">.</span></h2>
                                 </div>
@@ -216,15 +228,19 @@ export const HomeSections = () => {
                     </div>
                 </div>
             </section>
-            <section className="section pt-0 portfolio">
+            <section className="section portfolio">
                 <div className="container">
-                    <div className="row">
+                    <div className="row mb-md-4 mb-3">
                         <div className="col-12">
                             <div className="head">
                                 <h4 className="heading-sm">Portfolio</h4>
-                                <h2 className="heading">RECENT WORK
+                                <h2 className="heading">Our Featured Work
+
                                     <span className="dot">.</span>
                                 </h2>
+                                <p className="para">
+                                    Our omnichannel strategies provide a seamless user experience on your website that promises traffic and conversion. Whether your brand needs web development, digital marketing, or software development services, our digital agency professionals have the ability to mold their skillsets to bring your unique project to life.
+                                </p>
                             </div>
                         </div>
                     </div>

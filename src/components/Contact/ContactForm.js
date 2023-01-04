@@ -22,35 +22,40 @@ export const ContactForm = ({ action, method, formId }) => {
     } = useForm();
 
 
-    const onSubmit = (data) => {
+    const onSubmit = async (data) => {
         setIsLoading(true)
 
         data = JSON.stringify(data);
 
 
-        const fetchData = async () => {
-            const response = await axios({
-                url: `${URL}api/contact-post`,
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                data: data
-            })
-                .then(response => {
-                    reset();
-                    setData(response.data.message);
-                });
-            setIsLoading(false);
-            return response;
-        };
+        const response = await axios({
+            url: `${URL}api/contact-post`,
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            data: data
+        })
+            .then(response => {
+                reset();
+                setData(response.data.message);
+                if (response.data.success) {
+                    toast.success(response.data.message);
+                }
+                else {
+                    toast.error(response.data.message);
+                }
+            });
+        setIsLoading(false);
+        return response;
 
-        toast.promise(
-            fetchData(),
-            {
-                loading: 'loading...',
-                success: actualData,
-                error: "Something went wrong!",
-            }
-        );
+
+        // toast.promise(
+        //     fetchData(),
+        //     {
+        //         loading: 'loading...',
+        //         success: actualData,
+        //         error: "Something went wrong!",
+        //     }
+        // );
     };
     return (
         <form onSubmit={handleSubmit(onSubmit)} autocomplete="off" >

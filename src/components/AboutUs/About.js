@@ -3,6 +3,7 @@ import './About.css';
 import { motion } from 'framer-motion';
 import { Button } from '../Button/Button';
 import { HomeForm } from '../Forms/HomeForm';
+import { Team } from '../Team/Team';
 import AboutImg from '../Assets/About/home.png';
 import WhoWeAre from '../Assets/About/who-we-are.png';
 import AboutSec from '../Assets/About/sec-2-vector.png';
@@ -46,7 +47,7 @@ export const About = () => {
                   <h4 className='heading-sm'>About</h4>
                   <h2 className='heading'>Who we are<span className="dot">.</span></h2>
                   <p className="para">we design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwid ewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwide</p>
-                  <Button link="" text="Read more" type="light" />
+                  {/* <Button link="" text="Read more" type="light" /> */}
                 </div>
               </div>
             </div>
@@ -133,6 +134,8 @@ export const About = () => {
           </div>
         </div>
       </section>
+      <Team/>
     </motion.div>
+   
   )
 }

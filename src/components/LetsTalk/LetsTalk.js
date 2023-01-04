@@ -11,7 +11,7 @@ export default function LetsTalk() {
                     <div className="shape-2"></div>
                     <h2>Let's Get Your Project <br />Started!</h2>
                     <div className="link-box">
-                        <Button text="Lets Talk" type="light" link="#" />
+                        <Button text="Lets Talk" type="light" link="/contact" />
                     </div>
                 </div>
             </div>
