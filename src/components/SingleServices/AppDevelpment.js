@@ -4,6 +4,8 @@ import serviceone from "../Assets/mobile-app-dev.png";
 import mobileapp from "../Assets/services/mobile-application-development.jpg";
 import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
+import c1 from '../Assets/services/servicios-app-1024x751.png';
+import c2 from '../Assets/services/CkP-4uSWgAAa4Cm.png';
 
 
 export const AppDevelpment = () => {
@@ -18,7 +20,7 @@ export const AppDevelpment = () => {
                             <div className="inner">
                                 <div className="head">
                                     {/* <h4 className='heading-sm text-white'>Services</h4> */}
-                                    <h2 className='heading text-white' style={{ textTransform: 'unset' }}>Mobile Application Development<span className="dot">.</span></h2>
+                                    <h2 className='heading text-white' style={{ textTransform: 'unset' }}>Outstanding Mobile App Development For Your Business<span className="dot">.</span></h2>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +30,7 @@ export const AppDevelpment = () => {
                     </div>
                 </div>
             </section>
-            <section className="section bg-radial">
+            <section className=" bg-radial">
                 <div className="container-fluide">
 
                     <div className="row ">
@@ -45,6 +47,44 @@ export const AppDevelpment = () => {
                                         Using an agile development methodology, Digital Auxilius churns android app development and iOS app development for businesses of all scales. We aim to create solutions that not only meet the user’s needs but also cater to the business industry and its vertical needs. We offer a versatile engagement model that begins with a detailed assessment of your business and IT requirements to deliver a mobile app design that allows quick and cost-effective solutions.</p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="p-5">
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-lg-6 col-12 my-auto">
+                            <img src={c1} alt="About" draggable="false" className='aboutimg w-100' />
+                        </div>
+                        <div className="col-lg-6 col-12 my-auto">
+                            <div className="inner">
+                                <div className="head py-2">
+                                    {/* <h4 className='heading-sm'>About</h4> */}
+                                    {/* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> */}
+                                    <p className="para">The past decade witnessed a surge in the world’s inclination towards mobile applications. With the sales of smartphones surpassing 3 billion mark, the rise in the need and demand for mobile app development was inevitable. While the consumer enjoyed a more reliable, personalized, and convenient approach, businesses reveled in increased ROI and brand promotion. Hence, today, businesses and firms are keen to incorporate such applications into their digital existence.</p>
+                                    {/* <Button link="" text="Read more" type="light" /> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="p-5 bg-radial">
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-lg-6 col-12 my-auto">
+                            <div className="inner">
+                                <div className="head py-2">
+                                    {/* <h4 className='heading-sm'>About</h4> */}
+                                    {/* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> */}
+                                    <p className="para">We live in a world where mobile usage has increased tremendously due to the smartphone era that we are living in, and more than that, mobile applications have taken over the world with more and more advancements, and now you have an app for literally every service, every business, and every other basic necessity.</p>
+                                    {/* <Button link="" text="Read more" type="light" /> */}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-12 my-auto">
+                            <img src={c2} alt="About" draggable="false" className='aboutimg w-100' />
                         </div>
                     </div>
                 </div>
