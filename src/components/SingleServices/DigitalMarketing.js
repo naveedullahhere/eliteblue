@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 import serviceone from "../Assets/SMM.png";
+import ourwork from "../Assets/services/cro-img.png";
 import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
 
@@ -18,8 +19,8 @@ export const DigitalMarketing = () => {
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
                                 <div className="head">
-                                    <h4 className='heading-sm text-white'>Services</h4>
-                                    <h2 className='heading text-white' style={{ textTransform: 'unset' }}>Digital Marketing <br /> SEO, PPC, SMM<span className="dot">.</span></h2>
+                                    {/* <h4 className='heading-sm text-white'>Services</h4> */}
+                                    <h2 className='heading text-white' style={{ textTransform: 'unset' }}>Enhance Your Brand Visibility With Our Digital Marketing Services<span className="dot">.</span></h2>
                                 </div>
                             </div>
                         </div>
@@ -29,83 +30,54 @@ export const DigitalMarketing = () => {
                     </div>
                 </div>
             </section>
+            <section className="section ">
+        <div className="container">
+          <div className="row ">
+            <div className="col-lg-6 col-12 my-auto">
+              <h2 className="heading heading-h mb-3">
+              
+Cost effective digital marketing services that can  <span style={{ color: '#16539e' }}>impact various target markets </span>
+              </h2>
+            </div>
+            <div className="col-lg-6 col-12 my-auto">
+              <div className="inner">
+                <div className="head py-2">
+                  <p className="para">We at Digital Auxilius provide scalable digital marketing solutions that can be metamorphosed according to different target demographics. Living up to our name, we are the digital auxiliary that helps our clients develop an online footprint so strong it remains undeterred in the face of adversity. DAX helps businesses acquire quality leads through information-dense marketing that directly influences their target market. With us you get a digital marketing consultant that turns visitors into loyal customers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
             <section className="section bg-radial">
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-6 col-12 my-auto">
-                            <div className="inner">
-                                <div className="head">
-                                    <h4 className='heading-sm'>Our Service</h4>
-                                    <h2 className='heading'>Digital Marketing <br /> SEO, PPC, SMM<span className="dot">.</span></h2>
-                                </div>
-                            </div>
-                            {/* <Button link="" text="Learn more" type="dark" /> */}
+                            <h1 className='heading-sm '>OUR WORK PROCESS</h1>
+                            <h1 className='heading heading-h mb-4'>Unified Marketing Services for <span>Clinical Research Organizations</span></h1>
+                        </div>
+                        <div className="col-lg-6 col-12 my-auto">
+                            <img src={ourwork} alt="About" draggable="false" className=' w-100' />
                         </div>
                     </div>
-                    <div className="card mb-3 col-md-12 card-css-h">
-                        <div className="row g-0 " >
-                            <div className="col-md-4 card-css-h-img " >
-                                <img src="/assets/services_3.png" className="img-fluid rounded-start " alt="..." />
-
-                            </div>
-                            <div className="col-md-8 my-auto" >
-                                <div className="card-body ps-md-5">
-                                    <h5 className="card-title heading-sm">Part One</h5>
-                                    <h5 className="card-title heading">Part One</h5>
-                                    <p className="card-text para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro quod illum fugit libero quos, ducimus ab explicabo mollitia eligendi dicta eius reiciendis nihil, itaque nobis! Ea neque at ut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro ab veniam, architecto quidem labore ex doloribus magnam ut recusandae nobis ipsa esse ipsum deleniti veritatis debitis nesciunt cumque? Reiciendis.</p>
-
-                                </div>
+                    <div className="row my-2">
+                        <div className="col-lg-4 my-4">
+                            <div className="card p-5 border-0 h-100 card-h-2">
+                                <h1 className='heading-m-h'>Challenge</h1>
+                                <p className='para'>The biggest challenge in offering healthcare marketing services for clinical research organizations is that they adopt trends slowly. Still, there are several healthcare organizations that do not have websites. Hence, it is tough for a clinical research organization to stand out in the competitive market since they have no initial online presence.</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="card mb-3 col-md-12 card-css-h">
-                        <div className="row g-0 flex-md-row flex-column-reverse" >
-                            <div className="col-md-8 my-auto" >
-                                <div className="card-body pe-md-5">
-                                    <h5 className="card-title heading-sm">Part Two</h5>
-                                    <h5 className="card-title heading">Part Two</h5>
-                                    <p className="card-text para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro quod illum fugit libero quos, ducimus ab explicabo mollitia eligendi dicta eius reiciendis nihil, itaque nobis! Ea neque at ut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro ab veniam, architecto quidem labore ex doloribus magnam ut recusandae nobis ipsa esse ipsum deleniti veritatis debitis nesciunt cumque? Reiciendis.</p>
-
-                                </div>
-                            </div>
-                            <div className="col-md-4 card-css-h-img" >
-                                <img src="/assets/services_3.png" className="img-fluid rounded-start" alt="..." />
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div className="card mb-3 col-md-12 card-css-h">
-                        <div className="row g-0 " >
-                            <div className="col-md-4 card-css-h-img " >
-                                <img src="/assets/services_3.png" className="img-fluid rounded-start " alt="..." />
-
-                            </div>
-                            <div className="col-md-8 my-auto" >
-                                <div className="card-body ps-md-5">
-                                    <h5 className="card-title heading-sm">Part Three</h5>
-                                    <h5 className="card-title heading">Part Three</h5>
-                                    <p className="card-text para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro quod illum fugit libero quos, ducimus ab explicabo mollitia eligendi dicta eius reiciendis nihil, itaque nobis! Ea neque at ut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro ab veniam, architecto quidem labore ex doloribus magnam ut recusandae nobis ipsa esse ipsum deleniti veritatis debitis nesciunt cumque? Reiciendis.</p>
-
-                                </div>
+                        <div className="col-lg-4 my-4">
+                            <div className="card p-5 border-0 h-100 card-h-3">
+                                <h1 className='heading-m-h'>Solution</h1>
+                                <p className='para'>Our esteemed healthcare marketing agency provides result-guaranteed digital solutions to the healthcare industry. Our professional team prioritizes digital marketing strategies for clinical trials. Our marketing services help clinical research organizations boost brand awareness and referrals. We create social media marketing plans, run paid campaigns, do sponsored searches, and encourage native advertising.</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="card mb-3 col-md-12 card-css-h">
-                        <div className="row g-0 flex-md-row flex-column-reverse" >
-                            <div className="col-md-8 my-auto" >
-                                <div className="card-body pe-md-5">
-                                    <h5 className="card-title heading-sm">Part Four</h5>
-                                    <h5 className="card-title heading">Part Four</h5>
-                                    <p className="card-text para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro quod illum fugit libero quos, ducimus ab explicabo mollitia eligendi dicta eius reiciendis nihil, itaque nobis! Ea neque at ut! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium porro ab veniam, architecto quidem labore ex doloribus magnam ut recusandae nobis ipsa esse ipsum deleniti veritatis debitis nesciunt cumque? Reiciendis.</p>
-
-                                </div>
+                        <div className="col-lg-4 my-4">
+                            <div className="card p-5 border-0 h-100 card-h-2">
+                                <h1 className='heading-m-h'>Results</h1>
+                                <p className='para'>Our marketing service for clinical research organizations capabilities have advanced well beyond what was originally believed to be achievable as a result of adopting internet marketing in all formats. This development has further created significant opportunities for the clinical research sector. To help clients stay ahead of the competition we persistently advance strategies through research.</p>
                             </div>
-                            <div className="col-md-4 card-css-h-img" >
-                                <img src="/assets/services_3.png" className="img-fluid rounded-start" alt="..." />
-
-                            </div>
-
                         </div>
                     </div>
                 </div>

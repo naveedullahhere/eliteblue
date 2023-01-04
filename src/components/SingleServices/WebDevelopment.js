@@ -26,7 +26,7 @@ export const WebDevelopment = () => {
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
                                 <div className="head">
-                                    <h4 className='heading-sm text-white'>Services</h4>
+                                    {/* <h4 className='heading-sm text-white'>Services</h4> */}
                                     <h2 className='heading text-white'>
                                         Get Unique, End to End & Full Stack Website Development<span className="dot">.</span></h2>
                                     {/* <Button text="get a quote" link="" type="light" /> */}

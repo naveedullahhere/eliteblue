@@ -16,7 +16,7 @@ export const AppDevelpment = () => {
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
                                 <div className="head">
-                                    <h4 className='heading-sm text-white'>Services</h4>
+                                    {/* <h4 className='heading-sm text-white'>Services</h4> */}
                                     <h2 className='heading text-white' style={{ textTransform: 'unset' }}>Mobile Application Development<span className="dot">.</span></h2>
                                 </div>
                             </div>

@@ -16,7 +16,7 @@ export const ECommerceDevelopment = () => {
             <div className="col-lg-6 col-12 my-auto">
               <div className="inner">
                 <div className="head">
-                  <h4 className='heading-sm text-white'>Services</h4>
+                  {/* <h4 className='heading-sm text-white'>Services</h4> */}
                   <h2 className='heading heading-h text-white' style={{ textTransform: 'unset' }}>We Boost your Online Store with our Savvy eCommerce Development Services<span className="dot">.</span></h2>
                 </div>
               </div>
@@ -58,8 +58,8 @@ export const ECommerceDevelopment = () => {
                         </div>
                     </div> */}
           <div className="row">
-            <div className="col-lg-4  p-4">
-              <h1 className=' heading-m-h'>
+            <div className="col-lg-4 p-4">
+              <h1 className='heading-m-h'>
                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
               </h1>
               <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>

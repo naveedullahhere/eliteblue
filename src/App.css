@@ -850,3 +850,21 @@ p {
  fill:white;
  transition: 0.6s;
 }
+.card-h-2{
+  border-radius: 0 ;
+  box-shadow:  14px 14px 28px #0f0f0f05,
+  -14px -14px 28px #e8eef3;
+}
+.card-h-3{
+  background-color: #16539e !important;
+  box-shadow:  14px 14px 28px #0f0f0f05,
+  -14px -14px 28px #e8eef3;
+  z-index: 1;
+  border-radius: 0 ;
+}
+.card-h-3 h1{
+  color: white !important;
+}
+.card-h-3 p{
+  color: white !important;
+}
