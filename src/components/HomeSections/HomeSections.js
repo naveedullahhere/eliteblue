@@ -25,7 +25,7 @@ export const HomeSections = () => {
                             <div className="inner">
                                 <div className="head">
                                     <h4 className='heading-sm'>About</h4>
-                                    <h2 className='heading'>we do desgn, code & develipment<span className="dot">.</span></h2>
+                                    <h2 className='heading'>we do design, code & development<span className="dot">.</span></h2>
                                     <p className="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>
                                 </div>
                             </div>
