@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import React from 'react'
 import serviceone from "../Assets/e-commerce.png";
+import { Contact } from '../Contact/Contact';
+import { ContactForm } from '../Contact/ContactForm';
 import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
 
@@ -198,9 +200,7 @@ export const ECommerceDevelopment = () => {
 
         </div>
       </section>
-      <section className="section pt-0">
-        <LetsTalk />
-      </section>
+      <Contact />
     </motion.div >
   )
 }

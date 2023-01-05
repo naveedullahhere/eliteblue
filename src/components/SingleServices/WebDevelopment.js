@@ -10,6 +10,7 @@ import sr3 from '../Assets/services/web-&-app-development.png'
 import AngleRight from '../Assets/angleRight.png';
 import WhoWeAre from '../Assets/About/who-we-are.png';
 import { ContactForm } from '../Contact/ContactForm';
+import { Contact } from '../Contact/Contact';
 
 
 
@@ -310,35 +311,8 @@ export const WebDevelopment = () => {
 
                 </div>
             </section>
-            <section className="section contact main__form">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 my-auto">
-                            <div className="contact__content">
-                                <div className="head">
-                                    <h2 className='heading'>Ready to build a website that engage customers<span className="dot">?</span></h2>
-                                    <ul class="contact-info my-2">
-                                        <li><span class="icon flaticon-call"></span><a href="tel:+923118091779">+92 311 809 1779</a></li>
-                                        <li><span class="icon flaticon-email-2"></span><a href="mailto:info@eliteblue.net">info@eliteblue.net</a></li>
-                                        <li class="address"><span class="icon flaticon-pin-1"></span> Shahrah-e-Faisal Rd. P.E.C.S.H <br /> Block 6, Karachi, Pakistan.</li>
-                                    </ul>
-                                    {/* <Button text="Let's Talk" link="" type="light" /> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6">
-                            <div className="form-box">
-                                <div className="default-form">
-                                    <ContactForm />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {/* <section className="section pt-0">
-                <LetsTalk />
-            </section> */}
+            <Contact />
+
         </motion.div>
     )
 }

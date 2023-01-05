@@ -6,6 +6,8 @@ import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
 import c1 from '../Assets/services/servicios-app-1024x751.png';
 import c2 from '../Assets/services/CkP-4uSWgAAa4Cm.png';
+import { ContactForm } from '../Contact/ContactForm';
+import { Contact } from '../Contact/Contact';
 
 
 export const AppDevelpment = () => {
@@ -279,9 +281,7 @@ export const AppDevelpment = () => {
 
                 </div>
             </section>
-            <section className="section pt-0">
-                <LetsTalk />
-            </section>
+            <Contact />
         </motion.div>
     )
 }

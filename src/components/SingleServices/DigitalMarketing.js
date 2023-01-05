@@ -4,6 +4,8 @@ import serviceone from "../Assets/SMM.png";
 import ourwork from "../Assets/services/cro-img.png";
 import LetsTalk from '../LetsTalk/LetsTalk';
 import { Tech } from '../Technologies/Tech';
+import { ContactForm } from '../Contact/ContactForm';
+import { Contact } from '../Contact/Contact';
 
 
 
@@ -253,9 +255,7 @@ export const DigitalMarketing = () => {
 
                 </div>
             </section>
-            <section className="section pt-0">
-                <LetsTalk />
-            </section>
+            <Contact />
         </motion.div>
 
     )

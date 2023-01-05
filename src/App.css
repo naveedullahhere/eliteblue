@@ -907,3 +907,8 @@ p {
     max-width: 1220px !important;
   }
 }
+
+::selection {
+  background-color: var(--dark);
+  color: white;
+}

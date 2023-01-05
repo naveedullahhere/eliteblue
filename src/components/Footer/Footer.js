@@ -180,7 +180,7 @@ export const Footer = () => {
       <div className="footer-bottom">
         <div className="auto-container">
           <div className="inner">
-            <div className="copyright">© 2022 All Rights Reserved. Designed By Elite Blue Technologies</div>
+            <div className="copyright">© 2023 All Rights Reserved. Powered By Elite Blue Technologies</div>
           </div>
         </div>
       </div>
