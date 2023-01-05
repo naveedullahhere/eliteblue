@@ -30,6 +30,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    height: 100%;
 }
 
 .mb-30 {
@@ -74,9 +75,15 @@
     box-shadow: none;
 }
 
+.tpteam__thumb {
+    height: 100%;
+}
+
 .tpteam__thumb img {
     border-radius: 10px;
     max-width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
 .tpteam:hover .tpteam__shape-1 {
