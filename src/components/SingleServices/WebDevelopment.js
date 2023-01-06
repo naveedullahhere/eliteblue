@@ -51,7 +51,7 @@ export const WebDevelopment = () => {
                         </div>
                         <div className="col-lg-6">
                             <p className='para'>
-                                The key to being a brand that not only makes a good impression, but also refuses to evaporate from the ever-volatile industry, is partnering with a high performing digital agency. Digital Auxilius – as a Creative Agency we honor our name and remain staunch supporters of our clients through high yielding digital solutions within the everchanging market.
+                                The key to being a brand that not only makes a good impression, but also refuses to evaporate from the ever-volatile industry, is partnering with a high performing digital agency. Elite Blue – as a Creative Agency we honor our name and remain staunch supporters of our clients through high yielding digital solutions within the everchanging market.
                             </p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export const WebDevelopment = () => {
                                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
                             </h1>
                             <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>
-                            <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Digital Auxilius enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
+                            <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Elite Blue enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
                         </div>
                         <div className="col-lg-8 ">
                             <div className="row ">
@@ -311,7 +311,9 @@ export const WebDevelopment = () => {
 
                 </div>
             </section>
-            <Contact />
+            <section className="position-relative">
+                <Contact />
+            </section>
 
         </motion.div>
     )

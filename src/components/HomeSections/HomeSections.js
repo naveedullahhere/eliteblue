@@ -18,26 +18,26 @@ export const HomeSections = () => {
 
     return (
         <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} exit={{ transition: { duration: 0.3 }, opacity: 0, x: 100 }} id="home">
-            <section className="section bg-radial">
-                <div className="container">
-                    <div className="row ">
-                        <div className="col-lg-6 col-12 my-auto">
-                            <div className="inner">
-                                <div className="head">
-                                    <h4 className='heading-sm'>About</h4>
-                                    <h2 className='heading'>we do design, code & development<span className="dot">.</span></h2>
-                                    <p className="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>
-                                </div>
-                            </div>
-                            <Button link="about" text="Learn more" type="dark" />
-                        </div>
-                        <div className="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-md-5 rounded-4 shadow-main mt-lg-0 mt-5 mx-auto">
-                            <HomeForm action="" method="" formId="contactForm" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="services section pb-0">
+            {/*<section className="section bg-radial">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row ">*/}
+            {/*            <div className="col-lg-6 col-12 my-auto">*/}
+            {/*                <div className="inner">*/}
+            {/*                    <div className="head">*/}
+            {/*                        <h4 className='heading-sm'>About</h4>*/}
+            {/*                        <h2 className='heading'>we do design, code & development<span className="dot">.</span></h2>*/}
+            {/*                        <p className="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
+            {/*                <Button link="about" text="Learn more" type="dark" />*/}
+            {/*            </div>*/}
+            {/*            <div className="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-md-5 rounded-4 shadow-main mt-lg-0 mt-5 mx-auto">*/}
+            {/*                <HomeForm action="" method="" formId="contactForm" />*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
+            <section className="servics section pb-0">
                 <div className="container">
                     <div className="sec-title">
 
@@ -61,15 +61,19 @@ export const HomeSections = () => {
                             </div>
                             <div className="col-lg-6">
                                 <p className='para'>
-                                    The key to being a brand that not only makes a good impression, but also refuses to evaporate from the ever-volatile industry, is partnering with a high performing digital agency. Digital Auxilius – as a Creative Agency we honor our name and remain staunch supporters of our clients through high yielding digital solutions within the everchanging market.
+                                    The key to being a brand that not only makes a good impression but also refuses to evaporate from the ever-volatile industry is partnering with a high-performing digital agency. Elite blue – as a Creative Agency, we honour our name and remain staunch supporters of our clients through high-yielding digital solutions within the ever-changing market.
                                 </p>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-12">
                                 <p className='para'>
-                                    Our seasoned professionals are hard at work, day in and day out, looking for, designing, and developing the most efficient digital marketing solutions that would boost our clients’ sales and help them win over their customers. We are constantly refining our services to keep going with the industry’s changing nature, and make sure that our clients remain updated as well. We invest heavily in research and development, and consistently conduct analysis of the industry to make sure we are growing in the right direction. However, it is not only quality digital solutions that we are after, but also cultivating customer relations that we hone in on. Our theory is that the foundation of any long-lasting relationship between a brand and its customers starts from comfort. This is cultivated through well researched digital solutions, and customer services such as website maintenance, updates, and any other assistance a customer can ask for.
-                                </p>
+
+
+                                    Our seasoned professionals are hard at work, day in and day out, looking for, designing, and developing the most efficient digital marketing solutions to boost our clients’ sales and help them win over their customers. We are constantly refining our services to keep going with the industry’s changing nature and ensure that our clients remain updated. We invest heavily in research and development and consistently analyze the industry to ensure we are progressing. However, it is not only quality digital solutions that we are after but also cultivating customer relations that we hone in on. Our theory is that the foundation of any long-lasting relationship between a brand and its customers starts from comfort. This is cultivated through well-researched digital solutions and customer services such as website maintenance, updates, and any other assistance a customer can ask for.                                </p>
+                                <div className="link-box py-3">
+                                    <Button link={'/about'} text={'Let’s Grow Together'} type={'dark'}/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -122,19 +126,22 @@ export const HomeSections = () => {
                     </div> */}
                 </div>
             </section>
-            <section className="section my-1 position-relative overflow-hidden pb-5 services">
+            <section className="section my-1 position-relative overflow-hidden pb-5 servics">
                 <div className="container">
                     <div className="row">
                         <div className="col-12 shape-circle">
                             <img src={Circle} alt="Shape" />
                         </div>
-                        <div className="col-12">
+                        <div className="col-md-10">
                             <div className="head">
-                                <h4 className="heading-sm">What we can do for you</h4>
+                                {/*<h4 className="heading-sm">What we can do for you</h4>*/}
                                 <h2 className="heading">Services We can help you with
                                     <span className="dot">.</span>
                                 </h2>
-                                <p className="para">A wide selection of solutions is available, which are ideal for your project’s success. We mix digital craftsmanship with customer experiences and brand development.</p>
+                                <p className="para">
+                                    Elite Blue Technologies has buffed the quality of its digital agency services through continuous research so you don’t struggle to find your footing within the industry. We strove to develop the quality of services that would not only encompass all our client’s requirements but also yield desirable results in an already crowded market.
+
+                                </p>
                             </div>
                         </div>
                     </div>

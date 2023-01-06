@@ -126,7 +126,7 @@ export const BrandingNDesign = () => {
                                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
                             </h1>
                             <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>
-                            <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Digital Auxilius enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
+                            <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Elite Blue enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
                         </div>
                         <div className="col-lg-8 ">
                             <div className="row ">
@@ -468,26 +468,28 @@ export const BrandingNDesign = () => {
                     </div>
                 </div>
             </section>
-            <section className="section">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="head">
-                                <h2 className="heading">Stacks Used in Service
-                                    <span className="dot">.</span>
-                                </h2>
-                                <h4 className="heading-sm">We use these tools for the best designs we can provide to you.
-                                </h4>
+            {/*<section className="section">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row">*/}
+            {/*            <div className="col-12">*/}
+            {/*                <div className="head">*/}
+            {/*                    <h2 className="heading">Stacks Used in Service*/}
+            {/*                        <span className="dot">.</span>*/}
+            {/*                    </h2>*/}
+            {/*                    <h4 className="heading-sm">We use these tools for the best designs we can provide to you.*/}
+            {/*                    </h4>*/}
 
-                            </div>
-                        </div>
-                    </div>
+            {/*                </div>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
 
-                    <Tech />
+            {/*        <Tech />*/}
 
-                </div>
+            {/*    </div>*/}
+            {/*</section>*/}
+            <section className="position-relative">
+                <Contact />
             </section>
-            <Contact />
 
 
         </motion.div>

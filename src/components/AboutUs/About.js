@@ -20,9 +20,10 @@ export const About = () => {
             <div className="col-lg-6 col-12 my-auto">
               <div className="inner">
                 <div className="head">
-                  <h4 className='heading-sm text-white'>About</h4>
-                  <h2 className='heading text-white'>One of the fastest growing agency<span className="dot">.</span></h2>
-                  <p className="para text-white">we design and develop web and mobile applications for our clients worldwide</p>
+                  {/*<h4 className='heading-sm text-white'>About</h4>*/}
+                  <h2 className='heading text-white'>Elite Blue - fastest growing Digital agency<span className="dot">.</span></h2>
+                  {/*<h2 className='heading text-white'>One of the fastest growing agency<span className="dot">.</span></h2>*/}
+                  {/*<p className="para text-white">we design and develop web and mobile applications for our clients worldwide</p>*/}
                 </div>
               </div>
             </div>
@@ -44,9 +45,16 @@ export const About = () => {
             <div className="col-lg-6 col-12 my-auto">
               <div className="inner">
                 <div className="head">
-                  <h4 className='heading-sm'>About</h4>
-                  <h2 className='heading'>Who we are<span className="dot">.</span></h2>
-                  <p className="para">we design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwid ewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwidewe design and develop web and mobile applications for our clients worldwide</p>
+                  <h4 className='heading-sm'><span>Get to know Elite Blue</span></h4>
+                  <h2 className='heading heading-h'>
+                    We are Committed to taking your Brand to New Heights of Success<span className="dot">.</span></h2>
+                  <p className="para">
+                    With the advent of the internet, a good chunk of commerce has shifted online. This means that most of your target market can be found online, and though this provides businesses easy access, you have to become even more agile in the sources you use to get to them. With the influx of websites and applications popping up all over various online platforms, you want to make sure that your brand stands out in a manner that has the customer returning.                    <br/><br/>
+
+                    We at Elite Blue have been able to crack the code of what makes the user want to stick around on an application and think of the brand when they want the product or service you offer again. We have developed a secret ingredient list of what a brand can do to leave a lasting impression in the minds of its website visitors. It is a carefully crafted amalgamation of an attractive and easy-to-use web interface, smooth operations behind the scenes, and competitive digital marketing tactics.                    <br/><br/>
+
+                    Not only that, even after publishing your website we are consistently working to update the site and processes in order to match the changing rules and preferences of the industry. Digital Auxilius ensures that its experts are vigilant in learning the newer skills erupting within the market, and immediately implementing them on the clients’ website. Despite the changing weathers of the industry, we will make sure that when it comes to the digital aspect of your business you will never go obsolete.
+                  </p>
                   {/* <Button link="" text="Read more" type="light" /> */}
                 </div>
               </div>

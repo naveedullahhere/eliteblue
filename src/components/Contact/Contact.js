@@ -51,12 +51,12 @@ export const Contact = () => {
                             </p>
 
                             <div className="info">
-                                <div className="information mb-4">
-                                    <p className='mb-0'><span><b>USA:</b></span><br /> </p>
-                                </div>
+                                {/*<div className="information mb-4">*/}
+                                {/*    <p className='mb-0'><span><b>USA:</b></span><br /> </p>*/}
+                                {/*</div>*/}
                                 <div className="information mb-4">
                                     <img src={address} className="icon" alt="" />
-                                    <p className='mb-0'> Shahrah-e-Faisal Rd. P.E.C.S.H <br /> Block 6, Karachi, Pakistan.</p>
+                                    <p className='mb-0'> Shahrah-e-Faisal Rd. P.E.C.S.H Block 6, Karachi, Pakistan.</p>
                                 </div>
                                 <div className="information mb-4">
                                     <img src={email} className="icon" alt="" />

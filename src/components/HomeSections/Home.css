@@ -8,7 +8,7 @@
 .heading {
     position: relative;
     display: block;
-    font-size: 52px;
+    font-size: 46px;
     line-height: 1.2;
     text-transform: capitalize;
     color: var(--thm-black);
@@ -292,9 +292,9 @@ figure {
 
 .inner-box h5 {
     font-size: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: var(--dark);
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1px;
     line-height: 1.1em;
     margin: 0;
@@ -344,6 +344,7 @@ figure {
     color: var(--thm-text);
     padding: 12px 0px 0px;
     z-index: 1;
+    line-height: 1.5;
 }
  
 

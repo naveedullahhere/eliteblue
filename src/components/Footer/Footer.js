@@ -85,25 +85,24 @@ export const Footer = () => {
           <div className="circle circle-1"></div>
           <div className="row">
 
-            <div className="column col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div className="column col-xl-4 col-lg-5 col-md-5 col-sm-12">
               <div className="footer-widget logo-widget">
                 <div className="widget-content">
                   <div className="logo">
                     <Link to="/"><img id="fLogo" src={Logo} alt="" /></Link>
                   </div>
-                  <div className="info-widget">
-                    <ul className="contact-info">
-                      <li><span className="icon flaticon-call"></span><a href="tel:+923118091779">+92 311 809 1779</a></li>
-                      <li><span className="icon flaticon-email-2"></span><a href="mailto:info@eliteblue.net">info@eliteblue.net</a></li>
-                      <li className="address"><span className="icon flaticon-pin-1"></span> Shahrah-e-Faisal Rd. P.E.C.S.H <br /> Block 6, Karachi, Pakistan.</li>
-                    </ul>
+                  <div className="text">
+                    MediaChapter is a team of dedicated designers, developers, content creators, SEO specialists, digital marketers, and other experts who share a common passion for great brands
+
                   </div>
-                  <ul className="social-links ">
-                    <li><a href="#"><span className="fab fa-facebook-square"></span></a></li>
-                    <li><a href="#"><span className="fab fa-twitter"></span></a></li>
-                    <li><a href="#"><span className="fab fa-instagram"></span></a></li>
-                    <li><a href="#"><span className="fab fa-pinterest-p"></span></a></li>
-                  </ul>
+                  {/*<div className="info-widget">*/}
+                  {/*  <ul className="contact-info">*/}
+                  {/*    <li><span className="icon flaticon-call"></span><a href="tel:+923118091779">+92 311 809 1779</a></li>*/}
+                  {/*    <li><span className="icon flaticon-email-2"></span><a href="mailto:info@eliteblue.net">info@eliteblue.net</a></li>*/}
+                  {/*    <li className="address"><span className="icon flaticon-pin-1"></span> Shahrah-e-Faisal Rd. P.E.C.S.H Block 6, Karachi, Pakistan.</li>*/}
+                  {/*  </ul>*/}
+                  {/*</div>*/}
+
                 </div>
               </div>
             </div>
@@ -122,18 +121,36 @@ export const Footer = () => {
                 </div>
               </div>
             </div> */}
-            <div className="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+            <div className="column col-xl-2 col-lg-6 col-md-6 col-sm-12">
               <div className="footer-widget links-widget">
                 <div className="widget-content">
-                  <h6 class="mb-4 mt-md-0 mt-4">Explore</h6>
+                  <h6 class="mb-4 mt-md-0 mt-4">Site Map</h6>
                   <div className="row">
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-12 col-sm-12">
                       <ul>
                         <li><Link to="about">About</Link></li>
-                        <li><Link to="#">Servies</Link></li>
+                        {/*<li><Link to="#">Servies</Link></li>*/}
                         <li><Link to="portfolio">Portfolio</Link></li>
                         <li><Link to="contact">Contact</Link></li>
                         <li><Link to="contact">Blogs</Link></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="column col-xl-3 col-lg-6 col-md-6 col-sm-12">
+              <div className="footer-widget links-widget">
+                <div className="widget-content">
+                  <h6 className="mb-4 mt-md-0 mt-4">Services</h6>
+                  <div className="row">
+                    <div className="col-md-12 col-sm-12">
+                      <ul>
+                        <li><Link to="branding-and-design">Creative Branding & Design</Link></li>
+                        {/*<li><Link to="#">Servies</Link></li>*/}
+                        <li><Link to="web-development">Web Development</Link></li>
+                        <li><Link to="android-development">Mobile Application Development</Link></li>
+                        {/*<li><Link to="contact">Blogs</Link></li>*/}
                       </ul>
                     </div>
                   </div>
@@ -166,7 +183,17 @@ export const Footer = () => {
                       </div>
                     </form>
                   </div>
-                  <div className="text">Our latest news, articles, and resources, we will sent to your inbox weekly.</div>
+                 <div class="py-2">
+                   <h6 class="m-0">Follow US</h6>
+                   <ul className="social-links py-2">
+                     <li><a href="#"><span className="fab fa-facebook-square"></span></a></li>
+                     <li><a href="#"><span className="fab fa-twitter"></span></a></li>
+                     <li><a href="#"><span className="fab fa-instagram"></span></a></li>
+                     <li><a href="#"><span className="fab fa-pinterest-p"></span></a></li>
+                   </ul>
+                 </div>
+
+                  {/*<div className="text">Our latest news, articles, and resources, we will sent to your inbox weekly.</div>*/}
                 </div>
               </div>
             </div>

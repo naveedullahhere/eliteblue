@@ -155,7 +155,8 @@
   --primary-rgb: 22, 83, 158;
   --white: #fff;
   --light: #eceeef;
-  --thm-black: #222429;
+  /*--thm-black: #222429;*/
+  --thm-black: #000000;
   --dark: #212121;
   --thm-text: #686a6f;
   --thm-font: 'Poppins', sans-serif;
@@ -802,7 +803,9 @@ p {
 .heading-h span {
   color: var(--primary);
 }
-
+.heading-sm span {
+  color: var(--primary);
+}
 .text-main {
   color: var(--primary) !important;
 }

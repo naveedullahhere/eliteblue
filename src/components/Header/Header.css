@@ -26,6 +26,7 @@
      width: 100%;
      z-index: 9999;
      background: white;
+     box-shadow: 0 3px 45px rgb(0 0 0 / 15%);
  }
 
 
@@ -145,6 +146,7 @@
 
  .main-header .other-links .call-us {
      position: relative;
+     display: flex;
  }
 
  .main-header .other-links .search-btn {

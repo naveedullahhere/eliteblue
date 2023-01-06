@@ -43,7 +43,7 @@ export const AppDevelpment = () => {
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
                                 <div className="head py-2 mb-auto">
-                                    <p className="para">We at Digital Auxilius provide scalable digital marketing solutions that can be metamorphosed according to different target demographics. Living up to our name, we are the digital auxiliary that helps our clients develop an online footprint so strong it remains undeterred in the face of adversity. DAX helps businesses acquire quality leads through information-dense marketing that directly influences their target market. With us you get a digital marketing consultant that turns visitors into loyal customers.</p>
+                                    <p className="para">We at Elite Blue provide scalable digital marketing solutions that can be metamorphosed according to different target demographics. Living up to our name, we are the Elite Blue that helps our clients develop an online footprint so strong it remains undeterred in the face of adversity. DAX helps businesses acquire quality leads through information-dense marketing that directly influences their target market. With us you get a digital marketing consultant that turns visitors into loyal customers.</p>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export const AppDevelpment = () => {
                                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
                             </h1>
                             <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>
-                            <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Digital Auxilius enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
+                            <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Elite Blue enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
                         </div>
                         <div className="col-lg-8 ">
                             <div className="row ">
@@ -111,60 +111,61 @@ export const AppDevelpment = () => {
 
                     <div className="row ">
                         <div className="col-lg-6 col-12 my-auto">
-                            <img src={mobileapp} alt="About" draggable="false" className=' w-100' />
-                        </div>
+                                <img src={c2} alt="About" draggable="false" className='aboutimg w-100' />
+
+                                                    </div>
                         <div className="col-lg-6 col-12 p-5 my-auto">
                             <div className="inner">
                                 <div className="head py-2 mb-auto">
-                                    <h2 className='heading heading-h'>Digital Auxilius – Helping global brands introduce superior digital products<span className="dot">.</span></h2>
+                                    <h2 className='heading heading-h'>Elite Blue Technologies – Helping global brands introduce superior digital products<span className="dot">.</span></h2>
                                     <p className='para'>
                                         We understand how crucial it is for businesses to keep at pace with the ever-changing consumer behavior. Modern technology is constantly evolving and is also playing its part to influence how people shop and satisfy their needs. Today, people expect services/goods to be as accessible as if at their fingertips – a phenomenon that gave birth to mobile app development.</p>
                                     <p className="para " >
-                                        Using an agile development methodology, Digital Auxilius churns android app development and iOS app development for businesses of all scales. We aim to create solutions that not only meet the user’s needs but also cater to the business industry and its vertical needs. We offer a versatile engagement model that begins with a detailed assessment of your business and IT requirements to deliver a mobile app design that allows quick and cost-effective solutions.</p>
+                                        Using an agile development methodology, Elite Blue churns android app development and iOS app development for businesses of all scales. We aim to create solutions that not only meet the user’s needs but also cater to the business industry and its vertical needs. We offer a versatile engagement model that begins with a detailed assessment of your business and IT requirements to deliver a mobile app design that allows quick and cost-effective solutions.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="p-5">
-                <div className="container">
-                    <div className="row ">
-                        <div className="col-lg-6 col-12 my-auto">
-                            <img src={c1} alt="About" draggable="false" className='aboutimg w-100' />
-                        </div>
-                        <div className="col-lg-6 col-12 my-auto">
-                            <div className="inner">
-                                <div className="head py-2 mb-auto">
-                                    {/* <h4 className='heading-sm'>About</h4> */}
-                                    {/* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> */}
-                                    <p className="para">The past decade witnessed a surge in the world’s inclination towards mobile applications. With the sales of smartphones surpassing 3 billion mark, the rise in the need and demand for mobile app development was inevitable. While the consumer enjoyed a more reliable, personalized, and convenient approach, businesses reveled in increased ROI and brand promotion. Hence, today, businesses and firms are keen to incorporate such applications into their digital existence.</p>
-                                    {/* <Button link="" text="Read more" type="light" /> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="p-5 bg-radial">
-                <div className="container">
-                    <div className="row ">
-                        <div className="col-lg-6 col-12 my-auto">
-                            <div className="inner">
-                                <div className="head py-2 mb-auto">
-                                    {/* <h4 className='heading-sm'>About</h4> */}
-                                    {/* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> */}
-                                    <p className="para">We live in a world where mobile usage has increased tremendously due to the smartphone era that we are living in, and more than that, mobile applications have taken over the world with more and more advancements, and now you have an app for literally every service, every business, and every other basic necessity.</p>
-                                    {/* <Button link="" text="Read more" type="light" /> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 col-12 my-auto">
-                            <img src={c2} alt="About" draggable="false" className='aboutimg w-100' />
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {/*<section className="p-5">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row ">*/}
+            {/*            <div className="col-lg-6 col-12 my-auto">*/}
+            {/*                <img src={c1} alt="About" draggable="false" className='aboutimg w-100' />*/}
+            {/*            </div>*/}
+            {/*            <div className="col-lg-6 col-12 my-auto">*/}
+            {/*                <div className="inner">*/}
+            {/*                    <div className="head py-2 mb-auto">*/}
+            {/*                        /!* <h4 className='heading-sm'>About</h4> *!/*/}
+            {/*                        /!* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> *!/*/}
+            {/*                        <p className="para">The past decade witnessed a surge in the world’s inclination towards mobile applications. With the sales of smartphones surpassing 3 billion mark, the rise in the need and demand for mobile app development was inevitable. While the consumer enjoyed a more reliable, personalized, and convenient approach, businesses reveled in increased ROI and brand promotion. Hence, today, businesses and firms are keen to incorporate such applications into their digital existence.</p>*/}
+            {/*                        /!* <Button link="" text="Read more" type="light" /> *!/*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
+            {/*<section className="p-5 bg-radial">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row ">*/}
+            {/*            <div className="col-lg-6 col-12 my-auto">*/}
+            {/*                <div className="inner">*/}
+            {/*                    <div className="head py-2 mb-auto">*/}
+            {/*                        /!* <h4 className='heading-sm'>About</h4> *!/*/}
+            {/*                        /!* <h2 className='heading'>CUSTOM WEB DEVELOPMENT<span className="dot">.</span></h2> *!/*/}
+            {/*                        <p className="para">We live in a world where mobile usage has increased tremendously due to the smartphone era that we are living in, and more than that, mobile applications have taken over the world with more and more advancements, and now you have an app for literally every service, every business, and every other basic necessity.</p>*/}
+            {/*                        /!* <Button link="" text="Read more" type="light" /> *!/*/}
+            {/*                    </div>*/}
+            {/*                </div>*/}
+            {/*            </div>*/}
+            {/*            <div className="col-lg-6 col-12 my-auto">*/}
+            {/*                <img src={c2} alt="About" draggable="false" className='aboutimg w-100' />*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
+            {/*    </div>*/}
+            {/*</section>*/}
             <section className="section py-5">
                 <div className="container">
                     <div className="row ">
@@ -281,7 +282,10 @@ export const AppDevelpment = () => {
 
                 </div>
             </section>
-            <Contact />
+            <section className="position-relative">
+                <Contact />
+            </section>
+
         </motion.div>
     )
 }

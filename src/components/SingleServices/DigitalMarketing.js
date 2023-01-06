@@ -43,7 +43,7 @@ export const DigitalMarketing = () => {
                         <div className="col-lg-6 col-12 my-auto">
                             <div className="inner">
                                 <div className="head py-2 mb-auto">
-                                    <p className="para">We at Digital Auxilius provide scalable digital marketing solutions that can be metamorphosed according to different target demographics. Living up to our name, we are the digital auxiliary that helps our clients develop an online footprint so strong it remains undeterred in the face of adversity. DAX helps businesses acquire quality leads through information-dense marketing that directly influences their target market. With us you get a digital marketing consultant that turns visitors into loyal customers.</p>
+                                    <p className="para">We at Elite Blue provide scalable digital marketing solutions that can be metamorphosed according to different target demographics. Living up to our name, we are the Elite Blue that helps our clients develop an online footprint so strong it remains undeterred in the face of adversity. DAX helps businesses acquire quality leads through information-dense marketing that directly influences their target market. With us you get a digital marketing consultant that turns visitors into loyal customers.</p>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ export const DigitalMarketing = () => {
                                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
                             </h1>
                             <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>
-                            <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Digital Auxilius enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
+                            <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Elite Blue enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
                         </div>
                         <div className="col-lg-8 ">
                             <div className="row ">
@@ -237,25 +237,27 @@ export const DigitalMarketing = () => {
                     </div>
                 </div>
             </section>
-            <section className="section">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="head">
-                                <h4 className="heading-sm">TECHNOLOGIES WE USE
-                                </h4>
-                                <h2 className="heading">Highlights of technologies we use
-                                    <span className="dot">.</span>
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
+            {/*<section className="section">*/}
+            {/*    <div className="container">*/}
+            {/*        <div className="row">*/}
+            {/*            <div className="col-12">*/}
+            {/*                <div className="head">*/}
+            {/*                    <h4 className="heading-sm">TECHNOLOGIES WE USE*/}
+            {/*                    </h4>*/}
+            {/*                    <h2 className="heading">Highlights of technologies we use*/}
+            {/*                        <span className="dot">.</span>*/}
+            {/*                    </h2>*/}
+            {/*                </div>*/}
+            {/*            </div>*/}
+            {/*        </div>*/}
 
-                    <Tech />
+            {/*        <Tech />*/}
 
-                </div>
+            {/*    </div>*/}
+            {/*</section>*/}
+            <section className="position-relative">
+                <Contact />
             </section>
-            <Contact />
         </motion.div>
 
     )

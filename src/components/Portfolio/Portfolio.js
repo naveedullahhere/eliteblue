@@ -62,13 +62,13 @@ export const Portfolio = () => {
 
     return (
         <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} exit={{ transition: { duration: 0.3 }, opacity: 0, x: 100 }}>
-            <section className="section pt-0 portfolio">
+            <section className="section  portfolio">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
                             <div className="head">
-                                <h4 className="heading-sm">Portfolio</h4>
-                                <h2 className="heading">RECENT WORK
+                                {/*<h4 className="heading-sm">Portfolio</h4>*/}
+                                <h2 className="heading">OUR RECENT WORK
                                     <span className="dot">.</span>
                                 </h2>
                             </div>

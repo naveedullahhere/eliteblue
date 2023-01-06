@@ -40,7 +40,7 @@ export const ECommerceDevelopment = () => {
             <div className="col-lg-6 col-12 my-auto">
               <div className="inner">
                 <div className="head py-2 mb-auto">
-                  <p className="para">Our Digital Auxilius team integrates features such as product search, product information, order procession, and transactional systems in ecommerce website design to facilitate a high-quality online shopping experience for its customers. In fact, we have refined our expertise in custom eCommerce website development to suit all kinds of business models.</p>
+                  <p className="para">Our Elite Blue team integrates features such as product search, product information, order procession, and transactional systems in ecommerce website design to facilitate a high-quality online shopping experience for its customers. In fact, we have refined our expertise in custom eCommerce website development to suit all kinds of business models.</p>
                 </div>
               </div>
             </div>
@@ -55,7 +55,7 @@ export const ECommerceDevelopment = () => {
                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
               </h1>
               <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>
-              <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Digital Auxilius enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
+              <p className='para'>Ecommerce strategies set in motion by experienced digital resources can drive massive benefits for businesses of all types and sizes. Here’s when Elite Blue enters the picture. Our team uses an analytical approach to deliver web development services that set your business at par with your competitors. So, whether it is establishing a brand new identity or to contribute to the sustainability of the existing one, our prime objective is to witness our client go in and upward in the race.</p>
             </div>
             <div className="col-lg-8 ">
               <div className="row ">
@@ -200,7 +200,9 @@ export const ECommerceDevelopment = () => {
 
         </div>
       </section>
-      <Contact />
+      <section className="position-relative">
+        <Contact />
+      </section>
     </motion.div >
   )
 }

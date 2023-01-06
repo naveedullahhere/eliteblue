@@ -17,7 +17,7 @@
 }
 
 .text {
-    line-height: 2.125em;
+    line-height: 1.4;
     margin: 0 0;
 }
 
@@ -160,7 +160,7 @@
 .main-footer .footer-bottom .inner {
     position: relative;
     display: block;
-    padding: 35px 0px;
+    padding: 15px 0px;
     line-height: 30px;
     color: #eee;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -171,9 +171,17 @@
     display: block;
     margin: 25px 0 0;
     font-size: 14px;
-    line-height: 32px;
+    line-height: 1.4;
 }
 
+
+footer .contact-info {
+    padding: 0;
+    position: relative;
+}
+footer section.section{
+    padding-block: 75px;
+}
 .newsletter-form .form-group .theme-btn {
     position: absolute;
     right: 14px;
