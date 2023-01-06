@@ -32,11 +32,11 @@ export const AppDevelpment = () => {
                     </div>
                 </div>
             </section>
-            <section className="section py-5">
+            <section className="section py-5 pb-0">
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-6 col-12 my-auto">
-                            <h2 className="heading heading-h mb-3">
+                            <h2 className="heading heading mb-3">
                                 Cost effective digital marketing services that can  <span style={{ color: '#16539e' }}>impact various target markets </span>
                             </h2>
                         </div>
@@ -53,8 +53,8 @@ export const AppDevelpment = () => {
             <section className="section ">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 p-4">
-                            <h1 className='heading-h'>
+                        <div className="col-lg-4 ">
+                            <h1 className='heading'>
                                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
                             </h1>
                             <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>
@@ -107,17 +107,17 @@ export const AppDevelpment = () => {
                 </div>
             </section>
             <section className="section py-0">
-                <div className="container-fluide">
+                <div className="container">
 
                     <div className="row ">
                         <div className="col-lg-6 col-12 my-auto">
-                                <img src={c2} alt="About" draggable="false" className='aboutimg w-100' />
+                                <img src={c2} alt="About" draggable="false" className='aboutimg w-100 d-md-block d-none' />
 
                                                     </div>
-                        <div className="col-lg-6 col-12 p-5 my-auto">
+                        <div className="col-lg-6 col-12  my-auto">
                             <div className="inner">
                                 <div className="head py-2 mb-auto">
-                                    <h2 className='heading heading-h'>Elite Blue Technologies – Helping global brands introduce superior digital products<span className="dot">.</span></h2>
+                                    <h2 className='heading heading'>Elite Blue Technologies – Helping global brands introduce superior digital products<span className="dot">.</span></h2>
                                     <p className='para'>
                                         We understand how crucial it is for businesses to keep at pace with the ever-changing consumer behavior. Modern technology is constantly evolving and is also playing its part to influence how people shop and satisfy their needs. Today, people expect services/goods to be as accessible as if at their fingertips – a phenomenon that gave birth to mobile app development.</p>
                                     <p className="para " >
@@ -185,8 +185,8 @@ export const AppDevelpment = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-md-4 mt-3">
-                        <div className="col-md-3 col-4 my-3">
+                    <div className="row mt-md-4 mt-3 fs-lggg">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>1</h3>
@@ -195,7 +195,7 @@ export const AppDevelpment = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>2</h3>
@@ -204,7 +204,7 @@ export const AppDevelpment = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>3</h3>
@@ -214,7 +214,7 @@ export const AppDevelpment = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>4</h3>
@@ -224,7 +224,7 @@ export const AppDevelpment = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>5</h3>
@@ -233,7 +233,7 @@ export const AppDevelpment = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>6</h3>
@@ -243,7 +243,7 @@ export const AppDevelpment = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>7</h3>
@@ -252,7 +252,7 @@ export const AppDevelpment = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>8</h3>

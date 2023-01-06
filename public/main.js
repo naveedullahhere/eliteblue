@@ -28,6 +28,23 @@ const counter = () => {
 }
 counter();
 $(document).ready(function () {
+
+    setTimeout(() => { 
+        // bannerVideo.play();
+    }, 2000);
+    // $("#bannerVideo").prop('muted', false);
+
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+        //>=, not <=
+        if (scroll >= 700) {
+            bannerVideo.pause();
+        } else {
+            bannerVideo.play();
+        }
+    }); //missing );
+
     //MixitUp Gallery Filters
     if ($(".filter-list").length) {
         $(".filter-list").mixItUp({});
@@ -58,15 +75,3 @@ $(document).ready(function () {
     }
 
 });
-
-$(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-
-    //>=, not <=
-    if (scroll >= 1000) {
-        //clearHeader, not clearheader - caps H
-        $("header").addClass("sticky");
-    }else{
-        $("header").removeClass("sticky");
-    }
-}); //missing );

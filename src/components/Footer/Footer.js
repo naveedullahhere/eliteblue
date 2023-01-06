@@ -183,15 +183,14 @@ export const Footer = () => {
                       </div>
                     </form>
                   </div>
-                 <div class="py-2">
-                   <h6 class="m-0">Follow US</h6>
-                   <ul className="social-links py-2">
-                     <li><a href="#"><span className="fab fa-facebook-square"></span></a></li>
-                     <li><a href="#"><span className="fab fa-twitter"></span></a></li>
-                     <li><a href="#"><span className="fab fa-instagram"></span></a></li>
-                     <li><a href="#"><span className="fab fa-pinterest-p"></span></a></li>
-                   </ul>
-                 </div>
+                  <div class="py-md-2 py-4">
+                    <h6 class="m-0">Follow US</h6>
+                    <ul className="social-links py-2">
+                      <li><a target={'_blank'} href="https://www.facebook.com/elitebluetechnologies"><span className="fab fa-facebook-square"></span></a></li>
+                      <li><a target={'_blank'} href="https://twitter.com/EliteBlueTechn1"><span className="fab fa-twitter"></span></a></li>
+                      <li><a target={'_blank'} href="https://www.instagram.com/elitebluetechnologies/"><span className="fab fa-instagram"></span></a></li>
+                    </ul>
+                  </div>
 
                   {/*<div className="text">Our latest news, articles, and resources, we will sent to your inbox weekly.</div>*/}
                 </div>

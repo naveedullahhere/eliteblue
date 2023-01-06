@@ -72,7 +72,7 @@ export const HomeSections = () => {
 
                                     Our seasoned professionals are hard at work, day in and day out, looking for, designing, and developing the most efficient digital marketing solutions to boost our clients’ sales and help them win over their customers. We are constantly refining our services to keep going with the industry’s changing nature and ensure that our clients remain updated. We invest heavily in research and development and consistently analyze the industry to ensure we are progressing. However, it is not only quality digital solutions that we are after but also cultivating customer relations that we hone in on. Our theory is that the foundation of any long-lasting relationship between a brand and its customers starts from comfort. This is cultivated through well-researched digital solutions and customer services such as website maintenance, updates, and any other assistance a customer can ask for.                                </p>
                                 <div className="link-box py-3">
-                                    <Button link={'/about'} text={'Let’s Grow Together'} type={'dark'}/>
+                                    <Button link={'/about'} text={'Let’s Grow Together'} type={'dark'} />
                                 </div>
                             </div>
                         </div>
@@ -146,12 +146,12 @@ export const HomeSections = () => {
                         </div>
                     </div>
                     <div className="row my-4 w-100 mx-auto">
-                        <Service title="BLOCKCHAIN DEVELOPMENT" link="#" description="Blockchain development services are revolutionising the way people deal all around the world. With the support of secure, dependable, and high-quality blockchain technology development services, you can avoid third-party intrusion." image="./Assets/services_1.png" />
-                        <Service title="DIGITAL MARKETING" link="#" description="There are more leads. More sales are expected. Increased revenue. Eliteblue Technologies provides digital marketing services. We’ll assist your company in making the most significant impact, from traffic to income." image="./Assets/services_2.png" />
-                        <Service title="ECOMMERCE SOFTWARE DEVELOPMENT" link="#" description="ECommerce software development addresses the requirement for a digital presence from worldwide manufacturing, distribution, and retail organizations." image="./Assets/services_3.png" />
-                        <Service title="MOBILE APPLICATION DEVELOPMENT" link="#" description="Mobile Systems Custom Platform Back-End Executions Interface Apps" image="./Assets/services_4.png" />
-                        <Service title="Web Development" link="#" description="Web development on the front-end Web development on the backend WordPress Customization Development of a CMS" image="./Assets/services_5.png" />
                         <Service title="Creative Branding & Design" link="#" description="Designing a brand identity and logo, as well as packaging, web and  mobile design, and layout and print design." image="./Assets/services_6.png" />
+                        <Service title="Web Development" link="#" description="Web development on the front-end Web development on the backend WordPress Customization Development of a CMS" image="./Assets/services_5.png" />
+                        <Service title="Mobile Application Development" link="#" description="Mobile Systems Custom Platform Back-End Executions Interface Apps" image="./Assets/services_4.png" />
+                        <Service title="Ecommerce Software Development" link="#" description="ECommerce software development addresses the requirement for a digital presence from worldwide manufacturing, distribution, and retail organizations." image="./Assets/services_3.png" />
+                        <Service title="Digital Marketing" link="#" description="There are more leads. More sales are expected. Increased revenue. Eliteblue Technologies provides digital marketing services. We’ll assist your company in making the most significant impact, from traffic to income." image="./Assets/services_2.png" />
+                        <Service title="Blockchain Development" link="#" description="Blockchain development services are revolutionising the way people deal all around the world. With the support of secure, dependable, and high-quality blockchain technology development services, you can avoid third-party intrusion." image="./Assets/services_1.png" />
                     </div>
                 </div>
             </section>

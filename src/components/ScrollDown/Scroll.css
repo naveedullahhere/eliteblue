@@ -109,3 +109,40 @@
         transform: translate3d(0, 65px, 0);
     }
 }
+
+.mouse {
+    width: 34px;
+    height: 62px;
+    border: 2px solid #fff;
+    border-radius: 60px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 16px;
+    backdrop-filter: blur(8px);
+    box-shadow: -4px 1px 58px #ffffffd6;
+    /* mix-blend-mode: difference; */
+    filter: saturate(1);
+}
+
+.mouse::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--white);
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 2s infinite;
+    -webkit-animation: wheel 2s infinite;
+}
+
+@keyframes wheel {
+    to {
+        opacity: 0;
+        top: 60px;
+    }
+}

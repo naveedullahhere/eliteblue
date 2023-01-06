@@ -7,6 +7,7 @@ import { Team } from '../Team/Team';
 import AboutImg from '../Assets/About/home.png';
 import WhoWeAre from '../Assets/About/who-we-are.png';
 import AboutSec from '../Assets/About/sec-2-vector.png';
+import { Link } from 'react-router-dom';
 
 export const About = () => {
   return (
@@ -49,9 +50,9 @@ export const About = () => {
                   <h2 className='heading heading-h'>
                     We are Committed to taking your Brand to New Heights of Success<span className="dot">.</span></h2>
                   <p className="para">
-                    With the advent of the internet, a good chunk of commerce has shifted online. This means that most of your target market can be found online, and though this provides businesses easy access, you have to become even more agile in the sources you use to get to them. With the influx of websites and applications popping up all over various online platforms, you want to make sure that your brand stands out in a manner that has the customer returning.                    <br/><br/>
+                    With the advent of the internet, a good chunk of commerce has shifted online. This means that most of your target market can be found online, and though this provides businesses easy access, you have to become even more agile in the sources you use to get to them. With the influx of websites and applications popping up all over various online platforms, you want to make sure that your brand stands out in a manner that has the customer returning.                    <br /><br />
 
-                    We at Elite Blue have been able to crack the code of what makes the user want to stick around on an application and think of the brand when they want the product or service you offer again. We have developed a secret ingredient list of what a brand can do to leave a lasting impression in the minds of its website visitors. It is a carefully crafted amalgamation of an attractive and easy-to-use web interface, smooth operations behind the scenes, and competitive digital marketing tactics.                    <br/><br/>
+                    We at Elite Blue have been able to crack the code of what makes the user want to stick around on an application and think of the brand when they want the product or service you offer again. We have developed a secret ingredient list of what a brand can do to leave a lasting impression in the minds of its website visitors. It is a carefully crafted amalgamation of an attractive and easy-to-use web interface, smooth operations behind the scenes, and competitive digital marketing tactics.                    <br /><br />
 
                     Not only that, even after publishing your website we are consistently working to update the site and processes in order to match the changing rules and preferences of the industry. Digital Auxilius ensures that its experts are vigilant in learning the newer skills erupting within the market, and immediately implementing them on the clients’ website. Despite the changing weathers of the industry, we will make sure that when it comes to the digital aspect of your business you will never go obsolete.
                   </p>
@@ -63,7 +64,7 @@ export const About = () => {
           </div>
         </div>
       </section>
-      <section class="services what-we-do section">
+      <section class="services what-we-do section bg-white">
         <div class="container">
           <div class="row">
 
@@ -79,7 +80,7 @@ export const About = () => {
               <div class="inner-sec" count="01">
                 <div class="bottom-curve"></div>
                 <div class="icon-box"><span class="flaticon-responsive"></span></div>
-                <h6><a href="#">Website <br />Development</a></h6>
+                <h6><Link to="/web-development">Website <br />Development</Link></h6>
               </div>
             </div>
 
@@ -87,7 +88,7 @@ export const About = () => {
               <div class="inner-sec" count="02">
                 <div class="bottom-curve"></div>
                 <div class="icon-box"><span class="flaticon-computer"></span></div>
-                <h6><a href="#">graphic <br />designing</a></h6>
+                <h6><Link to="/branding-and-design">graphic <br />designing</Link></h6>
               </div>
             </div>
 
@@ -95,7 +96,7 @@ export const About = () => {
               <div class="inner-sec" count="03">
                 <div class="bottom-curve"></div>
                 <div class="icon-box"><span class="flaticon-computer"></span></div>
-                <h6><a href="#">digital <br />marketing</a></h6>
+                <h6><Link to="/digital-marketing">digital <br />marketing</Link></h6>
               </div>
             </div>
 
@@ -103,7 +104,7 @@ export const About = () => {
               <div class="inner-sec" count="04">
                 <div class="bottom-curve"></div>
                 <div class="icon-box"><span class="flaticon-computer"></span></div>
-                <h6><a href="#">Blockchain <br /> development</a></h6>
+                <h6><Link to="/web-development">Blockchain <br /> development</Link></h6>
               </div>
             </div>
 
@@ -111,7 +112,7 @@ export const About = () => {
               <div class="inner-sec" count="05">
                 <div class="bottom-curve"></div>
                 <div class="icon-box"><span class="flaticon-computer"></span></div>
-                <h6><a href="#">App <br />Development</a></h6>
+                <h6><Link to="/android-development">App <br />Development</Link></h6>
               </div>
             </div>
 
@@ -119,7 +120,7 @@ export const About = () => {
               <div class="inner-sec" count="06">
                 <div class="bottom-curve"></div>
                 <div class="icon-box"><span class="flaticon-computer"></span></div>
-                <h6><a href="#">Amazon <br /> service provider</a></h6>
+                <h6><Link to="ecommerce-development">Ecommerce software <br />Development</Link></h6>
               </div>
             </div>
           </div>
@@ -142,8 +143,8 @@ export const About = () => {
           </div>
         </div>
       </section>
-      <Team/>
+      <Team />
     </motion.div>
-   
+
   )
 }

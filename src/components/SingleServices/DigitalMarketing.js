@@ -32,11 +32,11 @@ export const DigitalMarketing = () => {
                     </div>
                 </div>
             </section>
-            <section className="section py-5">
+            <section className="section py-5 pb-0">
                 <div className="container">
                     <div className="row ">
                         <div className="col-lg-6 col-12 my-auto">
-                            <h2 className="heading heading-h mb-3">
+                            <h2 className="heading heading mb-3">
                                 Cost effective digital marketing services that can  <span style={{ color: '#16539e' }}>impact various target markets </span>
                             </h2>
                         </div>
@@ -53,8 +53,8 @@ export const DigitalMarketing = () => {
             <section className="section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 p-4">
-                            <h1 className='heading-h'>
+                        <div className="col-lg-4  ">
+                            <h1 className='heading'>
                                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
                             </h1>
                             <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>
@@ -111,27 +111,27 @@ export const DigitalMarketing = () => {
                     <div className="row ">
                         <div className="col-lg-6 col-12 my-auto">
                             <h1 className='heading-sm '>OUR WORK PROCESS</h1>
-                            <h1 className='heading heading-h mb-4'>Unified Marketing Services for <span>Clinical Research Organizations</span></h1>
+                            <h1 className='heading heading mb-4'>Unified Marketing Services for <span>Clinical Research Organizations</span></h1>
                         </div>
                         <div className="col-lg-6 col-12 my-auto">
-                            <img src={ourwork} alt="About" draggable="false" className=' w-100' />
+                            <img src={ourwork} alt="About" draggable="false" className='rounded-3 shadow-lg w-100' />
                         </div>
                     </div>
                     <div className="row my-2">
                         <div className="col-lg-4 my-4">
-                            <div className="card p-5 border-0 h-100 card-h-2">
+                            <div className="card p-5 border-0 h-100 card-h-2 rounded-3">
                                 <h1 className='heading-m-h'>Challenge</h1>
                                 <p className='para'>The biggest challenge in offering healthcare marketing services for clinical research organizations is that they adopt trends slowly. Still, there are several healthcare organizations that do not have websites. Hence, it is tough for a clinical research organization to stand out in the competitive market since they have no initial online presence.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 my-4">
-                            <div className="card p-5 border-0 h-100 card-h-3">
+                            <div className="card p-5 border-0 h-100 card-h-3 rounded-3">
                                 <h1 className='heading-m-h'>Solution</h1>
                                 <p className='para'>Our esteemed healthcare marketing agency provides result-guaranteed digital solutions to the healthcare industry. Our professional team prioritizes digital marketing strategies for clinical trials. Our marketing services help clinical research organizations boost brand awareness and referrals. We create social media marketing plans, run paid campaigns, do sponsored searches, and encourage native advertising.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 my-4">
-                            <div className="card p-5 border-0 h-100 card-h-2">
+                            <div className="card p-5 border-0 h-100 card-h-2 rounded-3">
                                 <h1 className='heading-m-h'>Results</h1>
                                 <p className='para'>Our marketing service for clinical research organizations capabilities have advanced well beyond what was originally believed to be achievable as a result of adopting internet marketing in all formats. This development has further created significant opportunities for the clinical research sector. To help clients stay ahead of the competition we persistently advance strategies through research.</p>
                             </div>
@@ -158,8 +158,8 @@ export const DigitalMarketing = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-md-4 mt-3">
-                        <div className="col-md-3 col-4 my-3">
+                    <div className="row mt-md-4 mt-3 fs-lggg">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>1</h3>
@@ -168,7 +168,7 @@ export const DigitalMarketing = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>2</h3>
@@ -177,7 +177,7 @@ export const DigitalMarketing = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>3</h3>
@@ -187,7 +187,7 @@ export const DigitalMarketing = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>4</h3>
@@ -197,7 +197,7 @@ export const DigitalMarketing = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>5</h3>
@@ -206,7 +206,7 @@ export const DigitalMarketing = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>6</h3>
@@ -216,7 +216,7 @@ export const DigitalMarketing = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>7</h3>
@@ -225,7 +225,7 @@ export const DigitalMarketing = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-3 col-4 my-3">
+                        <div className="col-md-3 col-6 my-3">
                             <div className="sec text-center">
 
                                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>8</h3>

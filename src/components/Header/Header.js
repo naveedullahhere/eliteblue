@@ -28,10 +28,11 @@ export const Header = () => {
                     <div className="inner-container ">
 
                         <div className="logo-box">
-                            <div className="logo"><Link to="/" title="Linoor - DIgital Agency HTML Template"><img
-                                src={Logo} id="thm-logo" alt="Linoor - DIgital Agency HTML Template"
-                                title="Linoor - DIgital Agency HTML Template" /></Link></div>
+                            <div className="logo"><Link to="/" ><img
+                                src={Logo} id="thm-logo" alt="EliteBlue Technologies - Software Company"
+                            /></Link></div>
                         </div>
+
                         <div className="nav-outer">
 
                             <div className="mobile-nav-toggler" onClick={toggleClass}><span className="icon flaticon-menu-2"></span><span className="txt">Menu</span></div>
@@ -110,12 +111,11 @@ export const Header = () => {
                     <div className="side-menu__sep"></div>
                     <div className="side-menu__content">
                         <p>We are a prominent software development business focused on enterprise solutions and outsourced product development, offering professional IT solutions to our global clientele.</p>
-                        <p><a href="mailto:info@eliteblue.net">info@eliteblue.net</a> <br /> <a href="tel:+923118091779">+92 311 809 1779</a></p>
-                        <div className="side-menu__social">
-                            <a to="#"><i className="fab fa-facebook-square"></i></a>
-                            <a to="#"><i className="fab fa-twitter"></i></a>
-                            <a to="#"><i className="fab fa-instagram"></i></a>
-                            <a to="#"><i className="fab fa-pinterest-p"></i></a>
+                        {/* <p><a href="mailto:info@eliteblue.net">info@eliteblue.net</a> <br /> <a href="tel:+923118091779">+92 311 809 1779</a></p> */}
+                        <div className="side-menu__social mt-5">
+                            <a target={'_blank'} href="https://www.facebook.com/elitebluetechnologies"><i className="fab fa-facebook-square"></i></a>
+                            <a target={'_blank'} href="https://twitter.com/EliteBlueTechn1"><i className="fab fa-twitter"></i></a>
+                            <a target={'_blank'} href="https://www.instagram.com/elitebluetechnologies/"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

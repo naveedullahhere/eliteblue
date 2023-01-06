@@ -14,7 +14,7 @@ export default function Service({ title, description, image, link }) {
                     <img src={image} alt="Services" className='ServicesImg' draggable="false" />
                 </div>
                 <div className="col-md-6 col-12 my-auto">
-                    <div className='px-md-4 px-2'>
+                    <div className='px-md-4 px-0'>
                         <h1 className="heading gradiant">{title}</h1>
                         <p className="para">
                             {description}

@@ -19,7 +19,7 @@ export const ECommerceDevelopment = () => {
               <div className="inner">
                 <div className="head">
                   {/* <h4 className='heading-sm text-white'>Services</h4> */}
-                  <h2 className='heading heading-h text-white' style={{ textTransform: 'unset' }}>We Boost your Online Store with our Savvy eCommerce Development Services<span className="dot">.</span></h2>
+                  <h2 className='heading heading text-white' style={{ textTransform: 'unset' }}>We Boost your Online Store with our Savvy eCommerce Development Services<span className="dot">.</span></h2>
                 </div>
               </div>
             </div>
@@ -29,11 +29,11 @@ export const ECommerceDevelopment = () => {
           </div>
         </div>
       </section>
-      <section className="section py-5">
+      <section className="section py-5 pb-0">
         <div className="container">
           <div className="row ">
             <div className="col-lg-6 col-12 my-auto">
-              <h2 className="heading heading-h mb-3">
+              <h2 className="heading heading mb-3">
                 Implementing a More Scalable Business Approach with an <br /> <span style={{ color: '#16539e' }}>Ecommerce Website </span>
               </h2>
             </div>
@@ -50,8 +50,8 @@ export const ECommerceDevelopment = () => {
       <section className="section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 p-4">
-              <h1 className='heading-h'>
+            <div className="col-lg-4 ">
+              <h1 className='heading'>
                 Reach out to your Global Audience with our <span>Versatile E-Commerce Website Services </span>
               </h1>
               <p className='para'>The main priority of every E-commerce web development company is to help brands raise brand awareness with their target audience. They are storytellers that relay a narrative of the brand to the target demographic in such a way that it allows the latter to connect to the brand. A digital agency helps businesses effectuate a distinct identity amidst a galore of companies and become an industry key player.</p>
@@ -122,8 +122,8 @@ export const ECommerceDevelopment = () => {
               </div>
             </div>
           </div>
-          <div className="row mt-md-4 mt-3">
-            <div className="col-lg-2 col-md-3 col-4 my-3">
+          <div className="row mt-md-4 mt-3 fs-lggg">
+            <div className="col-lg-2 col-md-3 col-6 my-3">
               <div className="sec text-center">
 
                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>1</h3>
@@ -132,7 +132,7 @@ export const ECommerceDevelopment = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-4 my-3">
+            <div className="col-lg-2 col-md-3 col-6 my-3">
               <div className="sec text-center">
 
                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>2</h3>
@@ -141,7 +141,7 @@ export const ECommerceDevelopment = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-4 my-3">
+            <div className="col-lg-2 col-md-3 col-6 my-3">
               <div className="sec text-center">
 
                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>4</h3>
@@ -150,7 +150,7 @@ export const ECommerceDevelopment = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-4 my-3">
+            <div className="col-lg-2 col-md-3 col-6 my-3">
               <div className="sec text-center">
 
                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>5</h3>
@@ -159,7 +159,7 @@ export const ECommerceDevelopment = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-4 my-3">
+            <div className="col-lg-2 col-md-3 col-6 my-3">
               <div className="sec text-center">
 
                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>6</h3>
@@ -170,7 +170,7 @@ export const ECommerceDevelopment = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-2 col-md-3 col-4 my-3">
+            <div className="col-lg-2 col-md-3 col-6 my-3">
               <div className="sec text-center">
 
                 <h3 className="fw-bold heading text-main" style={{ fontSize: "64px" }}>7</h3>

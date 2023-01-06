@@ -733,6 +733,7 @@
 
      .nav-outer .mobile-nav-toggler {
          display: block;
+         margin: 24px 0px 0px !important;
      }
 
      .header-style-two .nav-outer .mobile-nav-toggler {
@@ -830,7 +831,7 @@
      line-height: 24px;
      font-weight: 500;
      display: flex;
-cursor: pointer;
+     cursor: pointer;
      transition: all 500ms ease;
      font-family: "Teko", sans-serif;
      position: relative;
@@ -849,7 +850,7 @@ cursor: pointer;
 
 
  .main-header .header-upper {
-     height: 88px; 
+     height: 88px;
  }
 
  .bluredHeader {

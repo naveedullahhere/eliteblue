@@ -49,8 +49,8 @@
     float: left;
     display: block;
     font-size: 60px;
-    line-height: 0.85em;
-    text-transform: uppercase;
+    line-height: 1;
+    text-transform: capitalize;
     color: var(--white);
     font-weight: 500;
     margin: 0px 0px 25px;
@@ -63,11 +63,16 @@
     }
 
     .call-to-section h2 {
-        font-size: 48px;
+        font-size: 36px;
     }
 }
 
 @media (max-width: 768px) {
+    .mobile-nav__container li a {
+        color: #666666;
+        font-size: 14px;
+    }
+
     .call-to-section .inner {
         padding: 38px 28px;
     }
@@ -77,7 +82,8 @@
         width: 416px;
         height: 56px;
     }
-    .call-to-section .container{
+
+    .call-to-section .container {
         max-width: 94%;
     }
 }
@@ -85,6 +91,6 @@
 
 @media (max-width: 480px) {
     .call-to-section .container {
-      max-width: 100%;
-    } 
-  }
+        max-width: 100%;
+    }
+}
