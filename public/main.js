@@ -38,11 +38,11 @@ $(document).ready(function () {
         var scroll = $(window).scrollTop();
 
         //>=, not <=
-        if (scroll >= 700) {
-            bannerVideo.pause();
-        } else {
-            bannerVideo.play();
-        }
+        // if (scroll >= 700) {
+        //     bannerVideo.pause();
+        // } else {
+        //     bannerVideo.play();
+        // }
     }); //missing );
 
     //MixitUp Gallery Filters

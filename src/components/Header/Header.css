@@ -771,8 +771,6 @@
 
  .mobile-nav__container li.dropdown>a {
      position: relative;
-     display: -webkit-inline-box;
-     display: -ms-inline-flexbox;
      display: inline-flex;
      padding-right: 25px;
      vertical-align: middle;

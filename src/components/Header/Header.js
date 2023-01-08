@@ -47,6 +47,8 @@ export const Header = () => {
                                         </li>
                                         <li><Link to="portfolio">Portfolio</Link>
                                         </li>
+                                        <li><Link to="blog">Blog</Link>
+                                        </li>
                                         <li className="dropdown"><a to="#">Services</a>
                                             <ul>
                                                 <li><Link to="branding-and-design">Creative Branding &amp; Design</Link></li>
@@ -91,6 +93,8 @@ export const Header = () => {
                                 <li><Link to="about">About</Link>
                                 </li>
                                 <li><Link to="portfolio">Portfolio</Link>
+                                </li>
+                                <li><Link to="blog">Blog</Link>
                                 </li>
                                 <li className="dropdown">
                                     <a>Services<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></a>

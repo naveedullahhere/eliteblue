@@ -10,6 +10,8 @@ import { BrandingNDesign } from '../SingleServices/BrandingNDesign';
 import { DigitalMarketing } from '../SingleServices/DigitalMarketing';
 import { ECommerceDevelopment } from '../SingleServices/ECommerceDevelopment';
 import { WebDevelopment } from '../SingleServices/WebDevelopment';
+import { Blog } from '../Blog/Blog';
+import { SingleBlog } from '../Blog/SingleBlog';
 
 
 export const AnimatedRoutes = () => {
@@ -27,6 +29,8 @@ export const AnimatedRoutes = () => {
                 <Route path="ecommerce-development" element={<ECommerceDevelopment />} />
                 <Route path="web-development" element={<WebDevelopment />} />
                 <Route path="contact" element={<Contact />} />
+                <Route path="blog" element={<Blog />} />
+                <Route path="blog/:singleBlog" element={<SingleBlog />} />
             </Routes>
         </AnimatePresence>
     )
