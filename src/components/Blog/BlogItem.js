@@ -2,6 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export const BlogItem = ({ item, img }) => {
+
+    var date = new Date(item.updated_at);
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+
     return (
         <>
             {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12 my-3 text-start">
@@ -27,9 +33,8 @@ export const BlogItem = ({ item, img }) => {
                     <div className="lower-box">
                         <div className="post-meta">
                             <ul>
-                                <li><span className="far fa-clock"></span> 20 Mar</li>
+                                <li><span className="far fa-clock"></span> {`${date.getDate()} ${monthNames[date.getMonth()].slice(0, 3)}`}</li>
                                 <li><span className="far fa-user-circle"></span> Admin</li>
-                                <li><span className="far fa-comments"></span> 2 Comments</li>
                             </ul>
                         </div>
                         <h5 className='heading'><Link to={`/blog/${item.slug}`}>{item.title}</Link></h5>

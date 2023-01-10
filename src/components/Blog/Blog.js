@@ -6,7 +6,6 @@ import './Blog.css';
 
 export const Blog = () => {
 
-
     const [isLoading, setIsLoading] = useState(true);
     const [data, setData] = useState([]);
     const [img, setImg] = useState(null);

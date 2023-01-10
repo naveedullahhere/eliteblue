@@ -92,8 +92,7 @@ export const Footer = () => {
                     <Link to="/"><img id="fLogo" src={Logo} alt="" /></Link>
                   </div>
                   <div className="text">
-                    MediaChapter is a team of dedicated designers, developers, content creators, SEO specialists, digital marketers, and other experts who share a common passion for great brands
-
+                    Elite Blue Technologies is a team of dedicated designers, developers, content creators, SEO specialists, digital marketers, and other experts who share a common passion for great brands
                   </div>
                   {/*<div className="info-widget">*/}
                   {/*  <ul className="contact-info">*/}
@@ -133,7 +132,6 @@ export const Footer = () => {
                         <li><Link to="portfolio">Portfolio</Link></li>
                         <li><Link to="blog">Blog</Link></li>
                         <li><Link to="contact">Contact</Link></li>
-                        <li><Link to="contact">Blogs</Link></li>
                       </ul>
                     </div>
                   </div>
