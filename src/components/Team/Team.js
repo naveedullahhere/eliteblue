@@ -24,7 +24,7 @@ export const Team = () => {
                                     {
 
                                         teams.map((item) => {
-                                            return <div class="col-xl-3 col-lg-3 col-md-6 teams-card">
+                                            return <div class="col-xl-3 col-lg-3 col-md-6 teams-card my-3 gallery-item">
 
                                                 <div class="tpteam mb-30">
 
@@ -53,12 +53,24 @@ export const Team = () => {
 
                                                         <a href="#"><i class="fab fa-youtube"></i></a>
                                                     </div>
+                                                    <div class="cap-box">
+                                                        <div class="cap-inner">
+                                                            <div class="cat">
+                                                                <span>{item.designation}</span>
+                                                            </div>
+                                                            <div class="title">
+                                                                <h5>
+                                                                    <a>{item.name}</a>
+                                                                </h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         })
                                     }
 
-                                    <div class="col-xl-3 col-lg-3 col-md-6 teams-card">
+                                    <div class="col-xl-3 col-lg-3 col-md-6 teams-card my-3">
 
                                         <div class="tpteam mb-30">
 

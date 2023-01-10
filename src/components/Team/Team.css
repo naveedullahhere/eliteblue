@@ -96,6 +96,45 @@
     bottom: 0;
 }
 
+.teams-card.gallery-item .cap-box {
+    display: none;
+}
+
+@media (max-width: 550px) {
+    .teams-card.gallery-item .cap-box {
+        display: block;
+    }
+
+    .tpteam::after {
+        display: none;
+    }
+
+    .teams-card.gallery-item .cap-box .cat span {
+        font-size: 12px;
+    }
+
+    .teams-card.gallery-item .cap-box .cap-inner {
+        padding: 18px 32px;
+        border-radius: 8px;
+    }
+
+    .teams-card.gallery-item .cap-box h5 a {
+        font-size: 24px;
+    }
+
+    .tpteam__shape-1,
+    .tpteam__shape-2,
+    .tpteam__content {
+        display: none;
+    }
+
+    .teams-card.gallery-item .cap-box {
+        opacity: 1;
+        transform: translateY(4px);
+    }
+
+}
+
 .tpteam:hover::after {
     opacity: 1;
     visibility: visible;
