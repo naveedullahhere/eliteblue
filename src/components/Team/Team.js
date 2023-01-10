@@ -44,14 +44,7 @@ export const Team = () => {
                                                         <h3 class="tp-team-sm-title"><a target={'_blank'} href={`//github.com/${item.name}`}>{item.name}</a></h3>
                                                         <h5 class="tp-team-sm-subtitle">
                                                             <a href="//github.com/">{item.designation}</a>
-                                                        </h5>
-                                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                                        <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                                        <a href="#"><i class="fab fa-instagram"></i></a>
-
-                                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                                        </h5> 
                                                     </div>
                                                     <div class="cap-box">
                                                         <div class="cap-inner">
@@ -90,14 +83,7 @@ export const Team = () => {
                                                 <h3 class="tp-team-sm-title"><a href="//github.com/">Alextina Derex</a></h3>
                                                 <h5 class="tp-team-sm-subtitle">
                                                     <a href="//github.com/">UI/UX Designer</a>
-                                                </h5>
-                                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-
-                                                <a href="#"><i class="fab fa-twitter"></i></a>
-
-                                                <a href="#"><i class="fab fa-instagram"></i></a>
-
-                                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                                </h5> 
                                             </div>
                                             <div class="cap-box">
                                                 <div class="cap-inner">
