@@ -18,30 +18,30 @@ export const HomeSections = () => {
 
     return (
         <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} exit={{ transition: { duration: 0.3 }, opacity: 0, x: 100 }} id="home">
-            {/*<section className="section bg-radial">*/}
-            {/*    <div className="container">*/}
-            {/*        <div className="row ">*/}
-            {/*            <div className="col-lg-6 col-12 my-auto">*/}
-            {/*                <div className="inner">*/}
-            {/*                    <div className="head">*/}
-            {/*                        <h4 className='heading-sm'>About</h4>*/}
-            {/*                        <h2 className='heading'>we do design, code & development<span className="dot">.</span></h2>*/}
-            {/*                        <p className="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>*/}
-            {/*                    </div>*/}
-            {/*                </div>*/}
-            {/*                <Button link="about" text="Learn more" type="dark" />*/}
-            {/*            </div>*/}
-            {/*            <div className="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-md-5 rounded-4 shadow-main mt-lg-0 mt-5 mx-auto">*/}
-            {/*                <HomeForm action="" method="" formId="contactForm" />*/}
-            {/*            </div>*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*</section>*/}
+                <section className="section bg-radial">
+                <div className="container">
+                    <div className="row ">
+                        <div className="col-lg-6 col-12 my-auto">
+                            <div className="inner">
+                                <div className="head">
+                                    <h4 className='heading-sm'>About</h4>
+                                    <h2 className='heading'>we do design, code & development<span className="dot">.</span></h2>
+                                    <p className="para">Eliteblue is a group of driven engineers and strategists dedicated to creating mission-critical software solutions. Thanks to our business-focused strategy, we thrive on creating state-of-the-art bespoke applications that boost your business operations fro</p>
+                                </div>
+                            </div>
+                            <Button link="about" text="Learn more" type="dark" />
+                        </div>
+                        <div className="col-lg-6 col-11 bg-white p-md-5 p-4 py-5 rounded-md-5 rounded-4 shadow-main mt-lg-0 mt-5 mx-auto">
+                            <HomeForm action="" method="" formId="contactForm" />
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="servics section pb-0">
                 <div className="container">
                     <div className="sec-title">
 
-                        {/* <div className="row">
+                    <div className="row">
                             <div className="head col-xl-6 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className='heading'>Our Key Values<span
                                     className="dot">.</span></h2>
@@ -52,7 +52,7 @@ export const HomeSections = () => {
                                     and motivating place to work.
                                 </p>
                             </div>
-                        </div> */}
+                        </div> 
                         <div className="row">
                             <div className="col-lg-6">
                                 <h1 className='heading heading-h'>
